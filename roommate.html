@@ -119,7 +119,7 @@
   <div class="ui calendar" id="startdate">
     <div class="ui input left icon">
       <i class="calendar icon"></i>
-      <input type="text" placeholder="Date/Time">
+      <input type="text" id="start-date" placeholder="Date/Time">
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@
   <div class="ui calendar" id="enddate">
     <div class="ui input left icon">
       <i class="calendar icon"></i>
-      <input type="text" placeholder="Date/Time">
+      <input type="text" id="end-date" placeholder="Date/Time">
     </div>
   </div>
 </div>
@@ -160,6 +160,27 @@
   .dropdown();
   $('#startdate').calendar();
   $('#enddate').calendar();
+  
+  
+  //Get value from an input field
+   function getFieldValue(fieldId) { 
+      // 'get field' is part of Semantics form behavior API
+      return $('.ui.form').form('get field', fieldId).val();
+   }
+
+   function submitForm() {
+      var formData = {
+          field1: getFieldValue('someId')
+      };
+
+      $.ajax({ type: 'POST', url: '/api/someRestEndpoint', data: formData, success: onFormSubmitted });
+   }
+
+   // Handle post response
+   function onFormSubmitted(response) {
+        // Do something with response ...
+   }
+  
 </script>
 
 </body>
