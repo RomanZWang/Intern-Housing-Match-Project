@@ -1,1 +1,1 @@
-rename *.html *.aspx
+copy /y *.html aspx_versions\*.aspx
