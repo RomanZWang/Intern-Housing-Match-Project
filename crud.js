@@ -65,19 +65,21 @@
 
       //gets new list item as JSON
       function getListItem(siteUrl, listName, success, failure) {
-
-        var itemType = getItemTypeForListName(listName);
-
-        $.ajax({
-          url: siteUrl + "('" + listName + "')/items",
-          method: "GET",
-          headers: {
-            "Accept": "application/json;odata=verbose"
-          }
-        }).then(function(output) {
-          console.log(JSON.stringify(output));
-        })
-      }
+            var itemType = getItemTypeForListName(listName);
+            $.ajax({
+                  url: "https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9/_api/web/lists/GetByTitle('" + listName + "')/items",
+                  method: "GET",
+                  headers: {
+                        "Accept": "application/json;odata=verbose"
+                  },
+                  success: function (data) {
+                        success(data.d);
+                  },
+                  error: function (data) {
+                        success(data);
+                  }
+            })
+	}
 
     //specify item properties
     var itemProperties = {'Title':'Order task'};
