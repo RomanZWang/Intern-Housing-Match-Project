@@ -20,14 +20,14 @@
   <form class="ui form">
   <div class="field">
     <label>First Name</label>
-    <input type="text" name="first-name" placeholder="First Name">
+    <input type="text" id="c4um" placeholder="First Name">
   </div>
   <div class="field">
     <label>Last Name</label>
-    <input type="text" name="last-name" placeholder="Last Name">
+    <input type="text" id="OData__x0076_rd7" placeholder="Last Name">
   </div>
   <div class="field">
-    <select>
+    <select id="Gender">
       <option value="">Gender</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
@@ -36,7 +36,7 @@
     </select>
   </div>
   <div class="field">
-    <select>
+    <select id="GenderPreference">
       <option value="">Preferred gender of roommate</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
@@ -47,7 +47,7 @@
   </div>
 
   <div class="field">
-    <select>
+    <select id="State">
       <option value="">State</option>
       <option value="AL">Alabama</option>
       <option value="AK">Alaska</option>
@@ -104,61 +104,61 @@
   </div>
 
   <div class="field">
-    <div class="ui calendar" id="startdate">
+    <div class="ui calendar effects-calendar">
       <div class="ui input left icon">
         <i class="calendar icon"></i>
-        <input type="text" id="start-date" placeholder="Earliest move-in date">
+        <input type="text" id="wvxs" placeholder="Earliest move-in date">
       </div>
     </div>
   </div>
 
   <div class="field">
-    <div class="ui calendar" id="enddate">
+    <div class="ui calendar effects-calendar">
       <div class="ui input left icon">
         <i class="calendar icon"></i>
-        <input type="text" id="end-date" placeholder="Latest move-out date">
+        <input type="text" id="OData__x0066_o03" placeholder="Latest move-out date">
       </div>
     </div>
   </div>
 
   <div class="field">
-    <select class="ui dropdown">
-    <option value="">Employment Status</option>
-    <option value="Intern">Intern</option>
-    <option value="Non-Intern">Non-Intern</option>
-  </select>
+    <select id="Employment_x0020_Status" class="ui dropdown">
+      <option value="">Employment Status</option>
+      <option value="Intern">Intern</option>
+      <option value="Non-Intern">Non-Intern</option>
+    </select>
   </div>
 
   <div class="field">
     <div class="ui right labeled input">
       <label for="amount" class="ui label">$</label>
-      <input type="text" name="rentLimit" placeholder="Amount" id="rentLimit">
+      <input type="text" placeholder="Amount" id="tpqq">
       <div class="ui basic label">.00</div>
     </div>
   </div>
 
   <div class="field">
     <div class="ui checkbox">
-      <input type="checkbox" name="example">
+      <input type="checkbox" id="Smoker">
       <label>Are you a smoker?</label>
     </div>
   </div>
 
   <div class="field">
     <div class="ui checkbox">
-      <input type="checkbox" name="example">
+      <input type="checkbox" id="Pets">
       <label>Do you have any pets?</label>
     </div>
   </div>
 
   <div class="field">
     <label>E-mail address</label>
-    <input type="email" name="E-mail" placeholder="E-Mail">
+    <input type="email" placeholder="E-Mail" id="u9vz">
   </div>
 
   <div class="field">
       <label>Bio and additional info</label>
-      <textarea rows="10" id="name"></textarea>
+      <textarea rows="10" id="Additional"></textarea>
   </div>
 
   <div class="field">
@@ -173,15 +173,8 @@
 
 
 
-<script>
-  $('.ui.fluid.normal.dropdown')
-  .dropdown();
-  $('#startdate').calendar();
-  $('#enddate').calendar();
-  $('.ui.checkbox')
-      .checkbox()
-  ;
-</script>
+<script src="semanticCalls.js"></script>
+
 
 </body>
 </html>
