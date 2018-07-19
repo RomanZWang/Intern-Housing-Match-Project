@@ -11,12 +11,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
-  <script src="js/crud.js"></script>
-  <script src="js/submit.js"></script>
+  <script src="crud.js"></script>
+  <script src="submit.js"></script>
 </head>
 <body>
 
-  <form class="ui form" onsubmit="submitForm("RoomMates")">
+  <form class="ui form" onsubmit="submitForm(&quot;RoomMates&quot;)">
   <div class="field">
     <label>First Name</label>
     <input type="text" name="name" id="c4um" placeholder="First Name">

@@ -11,8 +11,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
-  <script src="js/crud.js"></script>
-  <script src="js/submit.js"></script>
+  <script src="crud.js"></script>
+  <script src="submit.js"></script>
 </head>
 <body>
   <h1>Insert interactive maps here</h1>
@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <form class="ui form" onsubmit="submitForm("CarPool")">
+  <form class="ui form" onsubmit="submitForm(&quot;CarPool&quot;)">
   <div class="field">
     <label>First Name</label>
     <input type="text" name="name" id="gwgz" placeholder="First Name">
