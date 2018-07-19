@@ -10,10 +10,10 @@
 <body>
   <div class="ui one column stackable center aligned page grid">
     <div class = "column twelve wide">
-      <a href="roommate.html"><button class="ui button">Find Roommate</button></a>
-      <a href="housing.html"><button class="ui button">Find Housing</button></a>
-      <a href="tenant.html"><button class="ui button">Find Tenant</button></a>
-      <a href="carpool.html"><button class="ui button">Find Carpool</button></a>
+      <a href="roommate.aspx"><button class="ui button">Find Roommate</button></a>
+      <a href="housing.aspx"><button class="ui button">Find Housing</button></a>
+      <a href="tenant.aspx"><button class="ui button">Find Tenant</button></a>
+      <a href="carpool.aspx"><button class="ui button">Find Carpool</button></a>
     </div>
   </div>
 </body>

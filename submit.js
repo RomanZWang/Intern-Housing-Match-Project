@@ -4,8 +4,9 @@ var housingKeys = ["x7yh","gxla","t75w","meae","OData__x0077_qh3","OData__x0076_
 var carPoolKeys = ["Location", "v42w", "E_x002d_Mail", "gwgz", "wg0m", "Additional", "d6ny", "espt"]
 
 var calendarKeys = ["wvxs", "OData__x0066_o03", "OData__x0077_qh3", "OData__x0076_ro3"]
-var numericKeys = ["tpqq","gxla","t75w","meae","v42w","d6ny","espt"];
+var numericKeys = ["tpqq","gxla","t75w","meae","v42w","d6ny","espt","p5l8","nulw"];
 var boolKeys = ["Smoker", "Pets", "Parking"];
+var multiSelectKeys = ["Days"];
 
 var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carPoolKeys};
 
@@ -22,6 +23,18 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
     }
     if(numericKeys.includes(fieldID)){
       return parseFloat(fieldValue);
+    }
+    if(multiSelectKeys.includes(fieldID)){
+      return ({
+        "__metadata": {
+          "type": "Collection(Edm.String)"
+        },
+        "results": [
+          "Sunday",
+          "Wednesday",
+          "Friday"
+        ]
+      });
     }
     return $('.ui.form').form('get field', fieldID).val();
  }

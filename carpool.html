@@ -35,6 +35,7 @@
   </div>
 
   <div class="field">
+    <label>Work Location</label>
     <select id="Location">
       <option value="">Work Location</option>
       <option value="1">McLean</option>
@@ -45,28 +46,40 @@
 
   <div class="field">
     <label>Longitude</label>
+    <div class="ui right labeled input">
     <input type="number" name="Longitude" id="d6ny" placeholder="Longitude from where you depart from work">
+    <div class="ui basic label">
+      °N
+    </div>
+  </div>
   </div>
 
   <div class="field">
     <label>Latitude</label>
+    <div class="ui right labeled input">
     <input type="number" name="Latitude" id="espt" placeholder="Latitude from where you depart from work">
+    <div class="ui basic label">
+      °W
+    </div>
+  </div>
   </div>
 
     <div class="field">
+      <label>Start hour</label>
       <div class="ui right labeled input">
-        <input type="text" placeholder="When do you depart for work?">
+        <input type="text" id="p5l8" placeholder="What hour do you depart for work?">
         <div class="ui basic label">
-          :00
+          :00AM
         </div>
       </div>
     </div>
 
     <div class="field">
+      <label>End hour</label>
       <div class="ui right labeled input">
-        <input type="text" placeholder="When do you come back home?">
+        <input type="text" id="nulw" placeholder="What hour do you come back home?">
         <div class="ui basic label">
-          :00
+          :00PM
         </div>
       </div>
     </div>
@@ -74,7 +87,7 @@
     <div class="ui form">
       <div class="field">
         <label>Days of the week</label>
-        <select multiple="" class="ui dropdown">
+        <select multiple="" id="Days" class="ui fluid normal dropdown">
           <option value="">Day</option>
           <option value="Sunday">Sunday</option>
           <option value="Monday">Monday</option>

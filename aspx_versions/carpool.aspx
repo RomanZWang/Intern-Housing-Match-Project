@@ -22,20 +22,20 @@
   <form class="ui form">
   <div class="field">
     <label>First Name</label>
-    <input type="text" name="first-name" placeholder="First Name">
+    <input type="text" name="first-name" id="gwgz" placeholder="First Name">
   </div>
   <div class="field">
     <label>Last Name</label>
-    <input type="text" name="last-name" placeholder="Last Name">
+    <input type="text" name="last-name"  id="wg0m" placeholder="Last Name">
   </div>
 
   <div class="field">
     <label>E-mail address</label>
-    <input type="email" name="E-Mail" placeholder="E-mail address">
+    <input type="email" name="E-Mail" id="E_x002d_Mail" placeholder="E-mail address">
   </div>
 
   <div class="field">
-    <select>
+    <select id="Location">
       <option value="">Work Location</option>
       <option value="1">McLean</option>
       <option value="0">Redondo Beach</option>
@@ -45,12 +45,12 @@
 
   <div class="field">
     <label>Longitude</label>
-    <input type="number" name="Longitude" placeholder="Longitude from where you depart from work">
+    <input type="number" name="Longitude" id="d6ny" placeholder="Longitude from where you depart from work">
   </div>
 
   <div class="field">
     <label>Latitude</label>
-    <input type="number" name="Latitude" placeholder="Latitude from where you depart from work">
+    <input type="number" name="Latitude" id="espt" placeholder="Latitude from where you depart from work">
   </div>
 
     <div class="field">
@@ -74,7 +74,7 @@
     <div class="ui form">
       <div class="field">
         <label>Days of the week</label>
-        <select multiple="" class="ui dropdown">
+        <select multiple="" id="Days" class="ui fluid normal dropdown">
           <option value="">Day</option>
           <option value="Sunday">Sunday</option>
           <option value="Monday">Monday</option>
