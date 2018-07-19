@@ -52,14 +52,14 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
       function(e){onFormSubmitted(e)},
       function(e){console.log(e)}
     );
-    onFormSubmitted(e);
+    onFormSubmitted();
     }
 
 
  }
 
  // Handle post response
- function onFormSubmitted(response) {
+ function onFormSubmitted() {
       console.log("submit success");
       window.location.href = 'index.aspx'
  }
