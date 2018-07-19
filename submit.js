@@ -11,7 +11,7 @@ var boolKeys = {"Smoker", "Pets", "Parking"};
     // 'get field' is part of Semantics form behavior API
     var fieldValue = $('.ui.form').form('get field', fieldId).val();
     if(boolKeys.includes(fieldID)){
-      return (fieldValue === "On" ? true : false);
+      return (fieldValue === "on" ? true : false);
     }
     if(calendarKeys.includes(fieldID)){
       //TODO FIX DUMMY VALUE
