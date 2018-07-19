@@ -4,9 +4,18 @@ var housingKeys = ["x7yh","gxla","t75w","meae","OData__x0077_qh3","OData__x0076_
 var carPoolKeys = ["Location", "v42w", "E_x002d_Mail", "gwgz", "wg0m", "Additional", "d6ny", "espt"]
 var calendarKeys = ["wvxs", "OData__x0066_o03", "OData__x0077_qh3", "OData__x0076_ro3"]
 var SPLists = {"RoomMate":roommateKeys , "Housing":housingKeys, "CarPool": carPoolKeys};
+var boolKeys = {"Smoker", "Pets", "Parking"};
 
  function getFieldValue(fieldId) {
     // 'get field' is part of Semantics form behavior API
+    var fieldValue = $('.ui.form').form('get field', fieldId).val();
+    if(boolKeys.includes(fieldID)){
+      return (fieldValue === "Yes" ? true : false);
+    }
+    if(calendarKeys.includes(fieldID)){
+      //TODO FIX DUMMY VALUE
+      return "2018-07-19T13:50:17Z";
+    }
     return $('.ui.form').form('get field', fieldId).val();
  }
 
@@ -18,15 +27,13 @@ var SPLists = {"RoomMate":roommateKeys , "Housing":housingKeys, "CarPool": carPo
    return formJSON;
  }
 
- function submitForm() {
-   for(var SPListName in SPLists){
+ function submitForm(SPListName) {
     createListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9/",
       SPListName,
       getFormJSON(SPLists[SPListName]),
       function(e){console.log(e)},
       function(e){console.log(e)}
     )
-  }
  }
 
  // Handle post response
