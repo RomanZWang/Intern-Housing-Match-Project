@@ -139,7 +139,7 @@
     <label>Rent</label>
     <div class="ui right labeled input">
       <label for="amount" class="ui label">$</label>
-      <input type="text" name="rent" placeholder="How much are you willing to pay for rent?" id="tpqq">
+      <input type="decimal" name="rent" placeholder="How much are you willing to pay for rent?" id="tpqq">
       <div class="ui basic label">.00</div>
     </div>
   </div>

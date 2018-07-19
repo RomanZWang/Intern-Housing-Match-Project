@@ -60,7 +60,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
 
  // Handle post response
  function onFormSubmitted(response) {
-      console.log(response);
+      console.log("submit success");
       window.location.href = 'index.aspx'
  }
 

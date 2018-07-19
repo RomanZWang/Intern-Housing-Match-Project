@@ -45,7 +45,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
  }
 
  function submitForm(SPListName) {
-   if(validateForm){
+   if(true){
     createListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9/",
       SPListName,
       getFormJSON(SPLists[SPListName]),
@@ -54,13 +54,13 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
     );
     onFormSubmitted(e);
     }
-    
+
 
  }
 
  // Handle post response
  function onFormSubmitted(response) {
-      console.log(response);
+      console.log("submit success");
       window.location.href = 'index.aspx'
  }
 

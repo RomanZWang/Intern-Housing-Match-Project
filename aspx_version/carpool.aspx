@@ -52,7 +52,7 @@
   <div class="field">
     <label>Longitude</label>
     <div class="ui right labeled input">
-    <input type="number" name="coordinate" id="d6ny" placeholder="Longitude from where you depart from work">
+    <input type="decimal" name="coordinate" id="d6ny" placeholder="Longitude from where you depart from work">
     <div class="ui basic label">
       °N
     </div>
@@ -62,7 +62,7 @@
   <div class="field">
     <label>Latitude</label>
     <div class="ui right labeled input">
-    <input type="number" name="coordinate" id="espt" placeholder="Latitude from where you depart from work">
+    <input type="decimal" name="coordinate" id="espt" placeholder="Latitude from where you depart from work">
     <div class="ui basic label">
       °W
     </div>

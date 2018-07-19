@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <form class="ui form" onsubmit="submitForm("Housing")">
+  <form class="ui form" onsubmit="submitForm(&quot;Housing&quot;)">
 
   <div class="field">
     <label>First Name</label>
@@ -43,7 +43,7 @@
   <div class="field">
     <label>Longitude</label>
     <div class="ui right labeled input">
-    <input type="number" name="coordinate" id="gxla" placeholder="38.8895">
+    <input type="decimal" name="coordinate" id="gxla" placeholder="38.8895">
     <div class="ui basic label">
       °N
     </div>
@@ -53,7 +53,7 @@
   <div class="field">
     <label>Latitude</label>
     <div class="ui right labeled input">
-    <input type="number" name="coordinate" id="t75w" placeholder="77.0353">
+    <input type="decimal" name="coordinate" id="t75w" placeholder="77.0353">
     <div class="ui basic label">
       °W
     </div>
@@ -62,12 +62,12 @@
 
   <div class="field">
     <label>Monthly Rent + Utilities to Charge</label>
-    <input type="number" name="rent" id="meae" placeholder="-">
+    <input type="decimal" name="rent" id="meae" placeholder="-">
   </div>
 
   <div class="field">
     <label>Move-in day</label>
-    <div class="ui calendar" id="startdate">
+    <div class="ui calendar effects-calendar" id="startdate">
       <div class="ui input left icon">
         <i class="calendar icon"></i>
         <input type="text" name="calendar" id="OData__x0077_qh3" placeholder="Earliest move-in date">
@@ -77,7 +77,7 @@
 
   <div class="field">
     <label>Move-out day</label>
-    <div class="ui calendar" id="enddate">
+    <div class="ui effects-calendar" id="enddate">
       <div class="ui input left icon">
         <i class="calendar icon"></i>
         <input type="text" id="OData__x0076_ro3" name="calendar" placeholder="Latest move-out date">
