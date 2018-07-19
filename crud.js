@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
       // Retreives the form digest val, which is similar to an authenticcation token
       function getFormDigest(webUrl) {
         $.ajax({
@@ -67,7 +65,7 @@
       function getListItem(siteUrl, listName, success, failure) {
             var itemType = getItemTypeForListName(listName);
             $.ajax({
-                  url: "https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9/_api/web/lists/GetByTitle('" + listName + "')/items",
+                  url: siteUrl + "('" + listName + "')/items",
                   method: "GET",
                   headers: {
                         "Accept": "application/json;odata=verbose"
@@ -81,17 +79,16 @@
             })
 	}
 
-    //specify item properties
-    var itemProperties = {'Title':'Order task'};
-    //create item
-    createListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9",'TestList',itemProperties,
-       function(entity){
-        console.log('New task ' + entity.Title + ' has been created');
-       },
-       function(error){
-        console.log(JSON.stringify(error));
-       }
-    );
-
-    console.log("script runnin'!!!");
-    </script>
+    // //specify item properties
+    // var itemProperties = {'Title':'Order task'};
+    // //create item
+    // createListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9",'TestList',itemProperties,
+    //    function(entity){
+    //     console.log('New task ' + entity.Title + ' has been created');
+    //    },
+    //    function(error){
+    //     console.log(JSON.stringify(error));
+    //    }
+    // );
+    //
+    // console.log("script runnin'!!!");
