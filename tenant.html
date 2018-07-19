@@ -12,8 +12,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
-  <script src="crud.js"></script>
-  <script src="submit.js"></script>
+  <script src="js/crud.js"></script>
+  <script src="js/submit.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
 </head>
 <body>
@@ -144,7 +144,7 @@
   <button class="ui button" type="submit">Submit</button>
 </form>
 
-<script src="semanticCalls.js"></script>
+<script src="js/semanticCalls.js"></script>
 
 </body>
 </html>
