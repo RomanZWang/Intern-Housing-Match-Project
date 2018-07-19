@@ -33,6 +33,18 @@ Housing
       "hiyi": "Wang",
 
 Carpool
+      "p5l8": 9,
+      "nulw": 17,
+      "Days": {
+        "__metadata": {
+          "type": "Collection(Edm.String)"
+        },
+        "results": [
+          "Sunday",
+          "Wednesday",
+          "Friday"
+        ]
+      },
       "Location": "McLean",
       "v42w": 4, //seats
       "E_x002d_Mail": "roman.wang@ngc.com",
