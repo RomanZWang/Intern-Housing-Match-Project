@@ -11,9 +11,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
+  <script src="submit.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
 </head>
 <body>
 
@@ -158,7 +158,7 @@
 
   <div class="field">
       <label>Bio and additional info</label>
-      <textarea rows="10"></textarea>
+      <textarea rows="10" id="name"></textarea>
   </div>
 
   <div class="field">
@@ -181,26 +181,6 @@
   $('.ui.checkbox')
       .checkbox()
   ;
-
-  //Get value from an input field
-   function getFieldValue(fieldId) {
-      // 'get field' is part of Semantics form behavior API
-      return $('.ui.form').form('get field', fieldId).val();
-   }
-
-   function submitForm() {
-      var formData = {
-          field1: getFieldValue('someId')
-      };
-
-      $.ajax({ type: 'POST', url: '/api/someRestEndpoint', data: formData, success: onFormSubmitted });
-   }
-
-   // Handle post response
-   function onFormSubmitted(response) {
-        // Do something with response ...
-   }
-
 </script>
 
 </body>

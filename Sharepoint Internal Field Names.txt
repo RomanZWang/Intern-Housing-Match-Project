@@ -5,20 +5,20 @@ Roommate
         "Gender": "Non-Binary",
         "GenderPreference": "Binary",
         "State": "AL",
-        "wvxs": "2018-07-10T04:00:00Z",
-        "OData__x0066_o03": "2018-07-23T04:00:00Z",
+        "wvxs": "2018-07-10T04:00:00Z", //startdate
+        "OData__x0066_o03": "2018-07-23T04:00:00Z", //enddate
         "Employment_x0020_Status": "Intern",
-        "tpqq": 990,
+        "tpqq": 990, //rent
         "Smoker": true,
         "Pets": false,
         "u9vz": "roman.wang@ngc.com",
         "Additional": "Lorem Ipsum",
-        
+
 Housing
       "Title": "Title",
       "x7yh": "Headline",
-      "gxla": 12.2,
-      "t75w": 21.2,
+      "gxla": 12.2, //long
+      "t75w": 21.2, //lat
       "meae": 990,
       "OData__x0077_qh3": "2018-07-03T04:00:00Z",
       "OData__x0076_ro3": "2018-08-03T04:05:00Z",
@@ -31,13 +31,13 @@ Housing
       "OData__x0061_o65": "roman.wang@ngc.com",
       "OData__x0070_ja0": "Roman",
       "hiyi": "Wang",
-      
+
 Carpool
       "Location": "McLean",
-      "v42w": 4,
+      "v42w": 4, //seats
       "E_x002d_Mail": "roman.wang@ngc.com",
       "gwgz": "Firstname",
       "wg0m": "Lastname",
       "Additional": "Lorem Ipsum\nAsd 123\n1",
-      "d6ny": 420,
-      "espt": 120,
+      "d6ny": 420, //long
+      "espt": 120, //lat
