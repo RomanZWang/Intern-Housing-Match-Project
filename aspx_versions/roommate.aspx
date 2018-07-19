@@ -7,28 +7,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
   <script src="crud.js"></script>
   <script src="submit.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
 </head>
 <body>
 
-  <form class="ui form">
+  <form class="ui form" onsubmit="submitForm("RoomMates")">
   <div class="field">
     <label>First Name</label>
-    <input type="text" id="c4um" placeholder="First Name">
+    <input type="text" name="name" id="c4um" placeholder="First Name">
   </div>
   <div class="field">
     <label>Last Name</label>
-    <input type="text" id="OData__x0076_rd7" placeholder="Last Name">
+    <input type="text" name="name" id="OData__x0076_rd7" placeholder="Last Name">
   </div>
   <div class="field">
-    <select id="Gender">
+    <label>Gender</label>
+    <select name="dropdown" id="Gender">
       <option value="">Gender</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
@@ -37,7 +36,8 @@
     </select>
   </div>
   <div class="field">
-    <select id="GenderPreference">
+    <label>Preferred Gender</label>
+    <select name="dropdown" id="GenderPreference">
       <option value="">Preferred gender of roommate</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
@@ -47,8 +47,10 @@
     </select>
   </div>
 
+
   <div class="field">
-    <select id="State">
+    <label>State</label>
+    <select name="dropdown" id="State">
       <option value="">State</option>
       <option value="AL">Alabama</option>
       <option value="AK">Alaska</option>
@@ -105,25 +107,28 @@
   </div>
 
   <div class="field">
+    <label>Earliest arrival date</label>
     <div class="ui calendar effects-calendar">
       <div class="ui input left icon">
         <i class="calendar icon"></i>
-        <input type="text" id="wvxs" placeholder="Earliest move-in date">
+        <input type="text" name="calendar" id="wvxs" placeholder="Earliest move-in date">
       </div>
     </div>
   </div>
 
   <div class="field">
+    <label>Latest leave date</label>
     <div class="ui calendar effects-calendar">
       <div class="ui input left icon">
         <i class="calendar icon"></i>
-        <input type="text" id="OData__x0066_o03" placeholder="Latest move-out date">
+        <input type="text" name="calendar" id="OData__x0066_o03" placeholder="Latest move-out date">
       </div>
     </div>
   </div>
 
   <div class="field">
-    <select id="Employment_x0020_Status" class="ui dropdown">
+    <label>Employment status</label>
+    <select id="Employment_x0020_Status" name="dropdown" class="ui dropdown">
       <option value="">Employment Status</option>
       <option value="Intern">Intern</option>
       <option value="Non-Intern">Non-Intern</option>
@@ -131,9 +136,10 @@
   </div>
 
   <div class="field">
+    <label>Rent</label>
     <div class="ui right labeled input">
       <label for="amount" class="ui label">$</label>
-      <input type="text" placeholder="Amount" id="tpqq">
+      <input type="text" name="rent" placeholder="How much are you willing to pay for rent?" id="tpqq">
       <div class="ui basic label">.00</div>
     </div>
   </div>
@@ -154,17 +160,17 @@
 
   <div class="field">
     <label>E-mail address</label>
-    <input type="email" placeholder="E-Mail" id="u9vz">
+    <input type="email" name="email" placeholder="E-Mail" id="u9vz">
   </div>
 
   <div class="field">
       <label>Bio and additional info</label>
-      <textarea rows="10" id="Additional"></textarea>
+      <textarea rows="10" id="Additional" name="text"></textarea>
   </div>
 
   <div class="field">
     <div class="ui checkbox">
-      <input type="checkbox" tabindex="0" class="hidden">
+      <input type="checkbox" tabindex="0" class="hidden" name="terms">
       <label>I agree to the Terms and Conditions</label>
     </div>
   </div>
