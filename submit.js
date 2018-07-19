@@ -3,6 +3,7 @@ var roommateKeys = ["c4um", "OData__x0076_rd7", "Gender", "GenderPreference", "S
 var housingKeys = ["x7yh","gxla","t75w","meae","OData__x0077_qh3","OData__x0076_ro3","Smoker","Pets","Parking","GenderPreference","HousingType","Description","OData__x0061_o65","OData__x0070_ja0","hiyi"]
 var carPoolKeys = ["Location", "v42w", "E_x002d_Mail", "gwgz", "wg0m", "Additional", "d6ny", "espt"]
 var calendarKeys = ["wvxs", "OData__x0066_o03", "OData__x0077_qh3", "OData__x0076_ro3"]
+var numericKeys = ["tpqq","gxla","t75w","meae","v42w","d6ny","espt"];
 var SPLists = {"RoomMate":roommateKeys , "Housing":housingKeys, "CarPool": carPoolKeys};
 var boolKeys = {"Smoker", "Pets", "Parking"};
 
@@ -10,11 +11,15 @@ var boolKeys = {"Smoker", "Pets", "Parking"};
     // 'get field' is part of Semantics form behavior API
     var fieldValue = $('.ui.form').form('get field', fieldId).val();
     if(boolKeys.includes(fieldID)){
-      return (fieldValue === "Yes" ? true : false);
+      return (fieldValue === "On" ? true : false);
     }
     if(calendarKeys.includes(fieldID)){
       //TODO FIX DUMMY VALUE
       return "2018-07-19T13:50:17Z";
+    }
+    if(numericKeys.includes(fieldID)){
+      //TODO FIX DUMMY VALUE
+      return parseFloat(fieldValue);
     }
     return $('.ui.form').form('get field', fieldId).val();
  }
