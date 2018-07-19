@@ -114,7 +114,7 @@
     <button class="ui button" type="submit">Submit</button>
 </form>
 
-<script src="js/semanticCalls.js"></script>
+<script src="semanticCalls.js"></script>
 
 </body>
 </html>
