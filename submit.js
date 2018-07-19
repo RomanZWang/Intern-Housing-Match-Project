@@ -39,12 +39,13 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
     createListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9/",
       SPListName,
       getFormJSON(SPLists[SPListName]),
-      function(e){console.log(e)},
+      function(e){onFormSubmitted(e)},
       function(e){console.log(e)}
     )
  }
 
  // Handle post response
  function onFormSubmitted(response) {
-      // Do something with response ...
+      console.log(response);
+      window.location.href = 'index.aspx'
  }
