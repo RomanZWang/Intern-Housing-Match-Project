@@ -11,9 +11,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-calendar/0.0.8/calendar.js"></script>
+  <script src="crud.js"></script>
+  <script src="submit.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
 </head>
 <body>
   <h1>Insert interactive maps here</h1>
@@ -27,6 +28,12 @@
     <label>Last Name</label>
     <input type="text" name="last-name" placeholder="Last Name">
   </div>
+
+  <div class="field">
+    <label>E-mail address</label>
+    <input type="email" name="E-Mail" placeholder="E-mail address">
+  </div>
+
   <div class="field">
     <select>
       <option value="">Work Location</option>
@@ -37,36 +44,59 @@
   </div>
 
   <div class="field">
-    <div class="ui right labeled input">
-      <input type="text" placeholder="Enter arrival time">
-      <div class="ui basic label">
-        :00
-      </div>
-    </div>
+    <label>Longitude</label>
+    <input type="number" name="Longitude" placeholder="Longitude from where you depart from work">
   </div>
 
   <div class="field">
-    <div class="ui right labeled input">
-      <input type="text" placeholder="Enter departure time">
-      <div class="ui basic label">
-        :00
+    <label>Latitude</label>
+    <input type="number" name="Latitude" placeholder="Latitude from where you depart from work">
+  </div>
+
+    <div class="field">
+      <div class="ui right labeled input">
+        <input type="text" placeholder="When do you depart for work?">
+        <div class="ui basic label">
+          :00
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="field">
-    <div class="ui checkbox">
-      <input type="checkbox" tabindex="0" class="hidden">
-      <label>Are you driving your car?</label>
+    <div class="field">
+      <div class="ui right labeled input">
+        <input type="text" placeholder="When do you come back home?">
+        <div class="ui basic label">
+          :00
+        </div>
+      </div>
     </div>
-  </div>
 
-<script>
-  $('.ui.fluid.normal.dropdown')
-  .dropdown();
-  $('#startdate').calendar();
-  $('#enddate').calendar();
-</script>
+    <div class="ui form">
+      <div class="field">
+        <label>Days of the week</label>
+        <select multiple="" class="ui dropdown">
+          <option value="">Day</option>
+          <option value="Sunday">Sunday</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" tabindex="0" class="hidden">
+        <label>I agree to the Terms and Conditions</label>
+      </div>
+    </div>
+
+    <button class="ui button" type="submit">Submit</button>
+
+<script src="semanticCalls.js"></script>
 
 </body>
 </html>
