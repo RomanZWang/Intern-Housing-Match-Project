@@ -27,6 +27,12 @@
     <label>Last Name</label>
     <input type="text" name="last-name" placeholder="Last Name">
   </div>
+
+  <div class="field">
+    <label>E-mail address</label>
+    <input type="email" name="E-Mail" placeholder="E-mail address">
+  </div>
+
   <div class="field">
     <select>
       <option value="">Work Location</option>
@@ -37,35 +43,66 @@
   </div>
 
   <div class="field">
-    <div class="ui right labeled input">
-      <input type="text" placeholder="Enter arrival time">
-      <div class="ui basic label">
-        :00
-      </div>
-    </div>
+    <label>Longitude</label>
+    <input type="number" name="Longitude" placeholder="Longitude from where you depart from work">
   </div>
 
   <div class="field">
-    <div class="ui right labeled input">
-      <input type="text" placeholder="Enter departure time">
-      <div class="ui basic label">
-        :00
-      </div>
-    </div>
+    <label>Latitude</label>
+    <input type="number" name="Latitude" placeholder="Latitude from where you depart from work">
   </div>
 
-  <div class="field">
-    <div class="ui checkbox">
-      <input type="checkbox" tabindex="0" class="hidden">
-      <label>Are you driving your car?</label>
+    <div class="field">
+      <div class="ui right labeled input">
+        <input type="text" placeholder="When do you depart for work?">
+        <div class="ui basic label">
+          :00
+        </div>
+      </div>
     </div>
-  </div>
+
+    <div class="field">
+      <div class="ui right labeled input">
+        <input type="text" placeholder="When do you come back home?">
+        <div class="ui basic label">
+          :00
+        </div>
+      </div>
+    </div>
+
+    <div class="ui form">
+      <div class="field">
+        <label>Days of the week</label>
+        <select multiple="" class="ui dropdown">
+          <option value="">Day</option>
+          <option value="Sunday">Sunday</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" tabindex="0" class="hidden">
+        <label>I agree to the Terms and Conditions</label>
+      </div>
+    </div>
+
+    <button class="ui button" type="submit">Submit</button>
 
 <script>
-  $('.ui.fluid.normal.dropdown')
+  $('.ui.dropdown')
   .dropdown();
   $('#startdate').calendar();
   $('#enddate').calendar();
+  $('.ui.checkbox')
+      .checkbox()
+  ;
 </script>
 
 </body>
