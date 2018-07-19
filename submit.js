@@ -15,7 +15,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
     // 'get field' is part of Semantics form behavior API
     var fieldValue = $('.ui.form').form('get field', fieldID).val();
     if(boolKeys.includes(fieldID)){
-      return (fieldValue === "on" ? true : false);
+      return $('.ui.form').form('get field', fieldID).is(":checked");
     }
     if(calendarKeys.includes(fieldID)){
       //TODO FIX DUMMY VALUE
@@ -29,11 +29,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
         "__metadata": {
           "type": "Collection(Edm.String)"
         },
-        "results": [
-          "Sunday",
-          "Wednesday",
-          "Friday"
-        ]
+        "results": fieldValue
       });
     }
     return $('.ui.form').form('get field', fieldID).val();
@@ -49,12 +45,17 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
  }
 
  function submitForm(SPListName) {
+   if(validateForm){
     createListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9/",
       SPListName,
       getFormJSON(SPLists[SPListName]),
       function(e){onFormSubmitted(e)},
       function(e){console.log(e)}
-    )
+    );
+    onFormSubmitted(e);
+    }
+    
+
  }
 
  // Handle post response
@@ -62,3 +63,47 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
       console.log(response);
       window.location.href = 'index.aspx'
  }
+
+//  $.fn.form.settings.rules.greaterThan = function (inputValue, validationValue) {
+//      return inputValue > validationValue;
+//  }
+//  $.fn.form.settings.rules.lessThan = function (inputValue, validationValue) {
+//     return inputValue < validationValue;
+// }
+
+//
+//  $('.ui.form').form({
+//     email: {
+//       identifier : 'email',
+//       rules: [
+//         {
+//           type   : 'email',
+//           prompt : 'Please enter an email'
+//         }
+//       ]
+//     },
+//     coordinate: {
+//       identifier : 'coordinate',
+//       rules: [
+//         {
+//           type   : 'greaterThan[validationValue]',
+//           prompt : 'Please enter a valid coordinate between 0 and 90'
+//         }
+//       ]
+//     },
+//     email: {
+//       identifier : 'email',
+//       rules: [
+//         {
+//           type   : 'email',
+//           prompt : 'Please enter an email'
+//         }
+//       ]
+//     }
+// },
+// {
+//     inline: true,
+//     on: 'blur',
+//     transition: 'fade down',
+//     onSuccess: validationpassed
+// });

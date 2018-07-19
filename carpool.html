@@ -17,24 +17,31 @@
 <body>
   <h1>Insert interactive maps here</h1>
 
-  <form class="ui form">
+  <div class="ui error message hidden">
+    <i class="close icon"></i>
+    <div class="header">
+      There were some errors with your submission
+    </div>
+  </div>
+
+  <form class="ui form" onsubmit="submitForm("CarPool")">
   <div class="field">
     <label>First Name</label>
-    <input type="text" name="first-name" id="gwgz" placeholder="First Name">
+    <input type="text" name="name" id="gwgz" placeholder="First Name">
   </div>
   <div class="field">
     <label>Last Name</label>
-    <input type="text" name="last-name"  id="wg0m" placeholder="Last Name">
+    <input type="text" name="name"  id="wg0m" placeholder="Last Name">
   </div>
 
   <div class="field">
     <label>E-mail address</label>
-    <input type="email" name="E-Mail" id="E_x002d_Mail" placeholder="E-mail address">
+    <input type="email" name="email" id="E_x002d_Mail" placeholder="E-mail address">
   </div>
 
   <div class="field">
     <label>Work Location</label>
-    <select id="Location">
+    <select name="checkbox" id="Location">
       <option value="">Work Location</option>
       <option value="1">McLean</option>
       <option value="0">Redondo Beach</option>
@@ -45,7 +52,7 @@
   <div class="field">
     <label>Longitude</label>
     <div class="ui right labeled input">
-    <input type="number" name="Longitude" id="d6ny" placeholder="Longitude from where you depart from work">
+    <input type="number" name="coordinate" id="d6ny" placeholder="Longitude from where you depart from work">
     <div class="ui basic label">
       °N
     </div>
@@ -55,7 +62,7 @@
   <div class="field">
     <label>Latitude</label>
     <div class="ui right labeled input">
-    <input type="number" name="Latitude" id="espt" placeholder="Latitude from where you depart from work">
+    <input type="number" name="coordinate" id="espt" placeholder="Latitude from where you depart from work">
     <div class="ui basic label">
       °W
     </div>
@@ -65,7 +72,7 @@
     <div class="field">
       <label>Start hour</label>
       <div class="ui right labeled input">
-        <input type="text" id="p5l8" placeholder="What hour do you depart for work?">
+        <input type="text" id="p5l8" name="hour" placeholder="What hour do you depart for work?">
         <div class="ui basic label">
           :00AM
         </div>
@@ -75,17 +82,16 @@
     <div class="field">
       <label>End hour</label>
       <div class="ui right labeled input">
-        <input type="text" id="nulw" placeholder="What hour do you come back home?">
+        <input type="text" id="nulw" name="hour" placeholder="What hour do you come back home?">
         <div class="ui basic label">
           :00PM
         </div>
       </div>
     </div>
 
-    <div class="ui form">
-      <div class="field">
+    <div class="field">
         <label>Days of the week</label>
-        <select multiple="" id="Days" class="ui fluid normal dropdown">
+        <select multiple="" id="Days" name="day" class="ui fluid normal dropdown">
           <option value="">Day</option>
           <option value="Sunday">Sunday</option>
           <option value="Monday">Monday</option>
@@ -95,12 +101,12 @@
           <option value="Friday">Friday</option>
           <option value="Saturday">Saturday</option>
         </select>
-      </div>
     </div>
+
 
     <div class="field">
       <div class="ui checkbox">
-        <input type="checkbox" tabindex="0" class="hidden">
+        <input type="checkbox" tabindex="0" name="terms" class="hidden">
         <label>I agree to the Terms and Conditions</label>
       </div>
     </div>
