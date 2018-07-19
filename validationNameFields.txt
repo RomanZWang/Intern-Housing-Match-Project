@@ -1,0 +1,8 @@
+Name
+email
+dropdown
+coordinate
+hour
+day
+terms
+rent
