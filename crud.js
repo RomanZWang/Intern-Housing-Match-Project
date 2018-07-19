@@ -1,6 +1,6 @@
 <script type="text/javascript">
 
-      <!-- Retreives the form digest val, which is similar to an authenticcation token -->
+      // Retreives the form digest val, which is similar to an authenticcation token
       function getFormDigest(webUrl) {
         $.ajax({
           url: webUrl + "/_api/contextinfo",
@@ -22,13 +22,13 @@
         return _formDigest;
       }
 
-      <!--Gets the name for the variable that Sharepoint uses internally to name our custom list -->
+      //Gets the name for the variable that Sharepoint uses internally to name our custom list
       function getItemTypeForListName(name) {
         return "SP.Data." + name.charAt(0).toUpperCase() + name.split(" ").join("").slice(1) + "ListItem";
       }
 
 
-      <!-- Creates new list -->
+      //Creates new list
       function createListItem(siteUrl,listName, itemProperties, success, failure) {
         var _digest = getFormDigest();
         console.log("Added List item called with digest value -- " + _digest);
@@ -63,7 +63,7 @@
         });
       }
 
-      <!-- gets new list itme as  -->
+      //gets new list item as JSON
       function getListItem(siteUrl, listName, success, failure) {
 
         var itemType = getItemTypeForListName(listName);
