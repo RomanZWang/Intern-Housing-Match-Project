@@ -58,13 +58,8 @@
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.9/gmaps.min.js"></script>
 <script>
-$.getJSON("js/housingExample.json", function(json) {
-    alert(json); // this will show the info it in firebug console
-});
 
-fetch("js/housingExample.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
+JSONdata = getListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9","CarPool",carPoolKeys).then(function(e){return e;}).catch(function(e){console.log("Resolve error for Ajax getListItem"); console.log(e)});
 
 var map;
 
