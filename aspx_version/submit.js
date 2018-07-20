@@ -52,7 +52,6 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
       function(e){onFormSubmitted(e)},
       function(e){console.log(e)}
     );
-    window.location.replace("success.aspx");
     }
 
 
@@ -61,6 +60,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
  // Handle post response
  function onFormSubmitted(response) {
       console.log(response);
+      window.location.replace("success.aspx");
  }
 
 //  $.fn.form.settings.rules.greaterThan = function (inputValue, validationValue) {

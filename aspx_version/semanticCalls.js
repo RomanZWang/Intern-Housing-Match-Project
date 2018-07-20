@@ -33,20 +33,14 @@ $('.message .close')
   })
 ;
 
-$(function(){
     $('#submit-tenant').click(function() {
         submitForm("Housing");
     });
-});
 
-$(function(){
     $('#submit-carpool').click(function() {
         submitForm("CarPool");
     });
-});
 
-$(function(){
     $('#submit-roommate').click(function() {
         submitForm("RoomMates");
     });
-});
