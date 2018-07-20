@@ -34,13 +34,13 @@ $('.message .close')
 ;
 
     $('#submit-tenant').click(function() {
-        submitForm("Housing");
+        setTimeout(777,submitForm("Housing"));
     });
 
     $('#submit-carpool').click(function() {
-        submitForm("CarPool");
+        setTimeout(777,submitForm("CarPool"));
     });
 
     $('#submit-roommate').click(function() {
-        submitForm("RoomMates");
+        setTimeout(777,submitForm("RoomMates"));
     });

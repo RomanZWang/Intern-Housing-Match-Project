@@ -19,7 +19,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
     }
     if(calendarKeys.includes(fieldID)){
       //TODO FIX DUMMY VALUE
-      return fieldID + "T00:00:00Z";
+      return fieldValue + "T00:00:00Z";
     }
     if(numericKeys.includes(fieldID)){
       return parseFloat(fieldValue);
