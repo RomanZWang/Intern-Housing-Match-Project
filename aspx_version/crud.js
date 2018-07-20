@@ -27,7 +27,7 @@
 
 
       //Creates new list
-      function createListItem(siteUrl,listName, itemProperties, success, failure) {
+      function createListItem(siteUrl,listName, itemProperties, success = function(e){console.log(e), failure = function(e){console.log(e)) {
         var _digest = getFormDigest();
         console.log("Added List item called with digest value -- " + _digest);
         var itemType = getItemTypeForListName(listName);
@@ -61,11 +61,26 @@
         });
       }
 
+      function arrayToQueryString(array){
+        var queryString = "";
+        if(array.lenth>0){
+          for(var i = 0; i< array.length; i++){
+            if(i==0){
+              queryString = queryString.concat(array[i]);
+            }
+            else{
+              queryString = queryString.concat(",",array[i]);
+            }
+          }
+        }
+        return queryString;
+      }
       //gets new list item as JSON
-      function getListItem(siteUrl, listName, success, failure) {
+      function getListItem(siteUrl, listName, queryArray = [], success = function(e){console.log(e)}, failure = function(e){console.log(e)}) {
             var itemType = getItemTypeForListName(listName);
+            var queryString = arrayToQueryString(queryArray);
             $.ajax({
-                  url: siteUrl + "('" + listName + "')/items",
+                  url: siteUrl + "/_api/Web/Lists/GetByTitle('" + listName + "')/items?$select=" + queryString,
                   method: "GET",
                   headers: {
                         "Accept": "application/json;odata=verbose"

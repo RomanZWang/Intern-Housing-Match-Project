@@ -62,19 +62,21 @@
       }
 
       function arrayToQueryString(array){
-        var queryString = ""
-        for(var i = 0; i< array.length; i++){
-          if(i==0){
-            queryString = queryString.concat(array[i]);
+        var queryString = "";
+        if(array.lenth>0){
+          for(var i = 0; i< array.length; i++){
+            if(i==0){
+              queryString = queryString.concat(array[i]);
+            }
+            else{
+              queryString = queryString.concat(",",array[i]);
+            }
           }
-          else{
-            queryString = queryString.concat(",",array[i]);
-          }
-
         }
+        return queryString;
       }
       //gets new list item as JSON
-      function getListItem(siteUrl, listName, queryArray = [], success = function(e){console.log(e)}, failure = function(e){console.log(e)) {
+      function getListItem(siteUrl, listName, queryArray = [], success = function(e){console.log(e)}, failure = function(e){console.log(e)}) {
             var itemType = getItemTypeForListName(listName);
             var queryString = arrayToQueryString(queryArray);
             $.ajax({
