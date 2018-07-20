@@ -90,6 +90,16 @@
     </div>
 
     <div class="field">
+      <label>Empty seats</label>
+      <div class="ui right labeled input">
+        <input type="text" id="v42w" name="number" placeholder="What hour do you come back home?">
+        <div class="ui basic label">
+          :00PM
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
         <label>Days of the week</label>
         <select multiple="" id="Days" name="day" class="ui fluid normal dropdown">
           <option value="">Day</option>

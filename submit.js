@@ -1,7 +1,7 @@
 //Get value from an input field
 var roommateKeys = ["c4um", "OData__x0076_rd7", "Gender", "GenderPreference", "State", "wvxs", "OData__x0066_o03", "Employment_x0020_Status", "tpqq", "Smoker", "Pets", "u9vz", "Additional"];
 var housingKeys = ["x7yh","gxla","t75w","meae","OData__x0077_qh3","OData__x0076_ro3","Smoker","Pets","Parking","GenderPreference","HousingType","Description","OData__x0061_o65","OData__x0070_ja0","hiyi"]
-var carPoolKeys = ["Location", "v42w", "E_x002d_Mail", "gwgz", "wg0m", "Additional", "d6ny", "espt"]
+var carPoolKeys = ["Location", "v42w", "E_x002d_Mail", "gwgz", "wg0m", "Additional", "d6ny", "espt","Days"]
 
 var calendarKeys = ["wvxs", "OData__x0066_o03", "OData__x0077_qh3", "OData__x0076_ro3"]
 var numericKeys = ["tpqq","gxla","t75w","meae","v42w","d6ny","espt","p5l8","nulw"];
