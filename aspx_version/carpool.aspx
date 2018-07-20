@@ -15,16 +15,22 @@
   <script src="submit.js"></script>
 </head>
 <body>
+
+  <div class="ui one column stackable aligned page grid">
+     <div class="column sixteen wide">
+  <div class="four wide column"><br /></div>
+
+
   <h1>Insert interactive maps here</h1>
 
-  <div class="ui error message hidden">
+  <!-- <div class="ui error message hidden">
     <i class="close icon"></i>
     <div class="header">
       There were some errors with your submission
     </div>
-  </div>
+  </div> -->
 
-  <form class="ui form">
+  <form class="ui form column segment">
   <div class="field">
     <label>First Name</label>
     <input type="text" name="name" id="gwgz" placeholder="First Name">
@@ -123,6 +129,8 @@
 
     <button class="ui button" id="submit-carpool">Submit</button>
 </form>
+
+</div></div></div>
 
 <script src="semanticCalls.js"></script>
 

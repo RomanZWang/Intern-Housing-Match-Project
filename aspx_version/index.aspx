@@ -8,12 +8,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
 </head>
 <body>
-  <div class="ui one column stackable center aligned page grid">
-    <div class = "column twelve wide">
-      <a href="roommate.aspx"><button class="ui button">Find Roommate</button></a>
-      <a href="housing.aspx"><button class="ui button">Find Housing</button></a>
-      <a href="tenant.aspx"><button class="ui button">Find Tenant</button></a>
-      <a href="carpool.aspx"><button class="ui button">Find Carpool</button></a>
+  <div class="ui one column stackable aligned page grid">
+     <div class="column sixteen wide">
+       <div class="four wide column"><br /></div>
+       <div class="column segment">
+        <a href="roommate.aspx"><button class="ui button">Find Roommate</button></a>
+        <a href="housing.aspx"><button class="ui button">Find Housing</button></a>
+        <a href="tenant.aspx"><button class="ui button">Find Tenant</button></a>
+        <a href="carpool.aspx"><button class="ui button">Find Carpool</button></a>
+      </div>
     </div>
   </div>
 </body>

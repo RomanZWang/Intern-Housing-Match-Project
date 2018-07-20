@@ -17,8 +17,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/components/dropdown.min.js"></script>
 </head>
 <body>
-
-  <form class="ui form">
+  <div class="ui one column stackable aligned page grid">
+     <div class="column sixteen wide">
+  <div class="four wide column"><br /></div>
+  <form class="ui form column segment">
 
   <div class="field">
     <label>First Name</label>
@@ -147,7 +149,7 @@
 
   <button class="ui button" id="submit-tenant">Submit</button>
 </form>
-
+</div></div></div>
 <script src="semanticCalls.js"></script>
 </body>
 </html>

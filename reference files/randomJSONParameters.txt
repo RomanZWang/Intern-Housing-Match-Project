@@ -1,0 +1,27 @@
+https://next.json-generator.com/V1GKNmjQr
+
+Housing
+[
+  {
+    'repeat(30, 50)': {
+      _id: '{{objectId()}}',
+      Smoker: '{{bool()}}',
+      Pets: '{{bool()}}',
+      Parking: '{{bool()}}',
+      Rent: '{{floating(200, 2000,)}}',
+      GenderPreference: '{{random("Male", "Female", "Binary", "Non-Binary", "Any")}}',
+        firstName: '{{firstName()}}',
+        lastName: '{{surname()}}',
+      company: '{{company().toUpperCase()}}',
+      email(tags) {
+        return `${this.firstName}.${this.lastName}@${"ngc"}${tags.domainZone()}`.toLowerCase();
+      },
+      address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+      Description: '{{lorem(1, "paragraphs")}}',
+      StartDate: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+            EndDate: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+      latitude: '{{floating(33.1660, 33.4260, )}}',
+      longitude: '{{floating(-111.5679, -112.1052)}}',
+    }
+  }
+]

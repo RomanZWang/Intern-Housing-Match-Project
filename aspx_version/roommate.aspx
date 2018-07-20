@@ -16,8 +16,14 @@
 </head>
 <body>
 
-  <form class="ui form">
+
+
+  <div class="ui one column stackable aligned page grid">
+     <div class="column sixteen wide">
+<div class="four wide column"><br /></div>
+  <form class="ui form column segment">
   <div class="field">
+    <h4 class="ui dividing header">Roommate search form</h4>
     <label>First Name</label>
     <input type="text" name="name" id="c4um" placeholder="First Name">
   </div>
@@ -177,7 +183,9 @@
 
   <button class="ui button" id="submit-roommate">Submit</button>
 </form>
-
+</div>
+</div>
+</div>
 
 
 <script src="semanticCalls.js"></script>
