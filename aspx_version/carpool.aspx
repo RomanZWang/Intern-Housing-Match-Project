@@ -121,7 +121,7 @@
       </div>
     </div>
 
-    <button class="ui button" type="submit" id="submit-carpool">Submit</button>
+    <button class="ui button" id="submit-carpool">Submit</button>
 </form>
 
 <script src="semanticCalls.js"></script>

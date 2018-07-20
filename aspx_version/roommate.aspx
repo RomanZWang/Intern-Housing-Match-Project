@@ -175,7 +175,7 @@
     </div>
   </div>
 
-  <button class="ui button" id="submit-roommate" type="submit">Submit</button>
+  <button class="ui button" id="submit-roommate">Submit</button>
 </form>
 
 
