@@ -61,8 +61,12 @@
   </div>
 
   <div class="field">
-    <label>Monthly Rent + Utilities to Charge</label>
-    <input type="decimal" name="rent" id="meae" placeholder="-">
+    <label>Rent + Utilities</label>
+    <div class="ui right labeled input">
+      <label for="amount" class="ui label">$</label>
+      <input type="decimal" name="rent" placeholder="Approximate Monthly Cost of Rent and Utilities" id="tpqq">
+      <div class="ui basic label">.00</div>
+    </div>
   </div>
 
   <div class="field">
