@@ -58,8 +58,7 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
  }
 
  // Handle post response
- function onFormSubmitted(response) {
-      console.log(response);
+ function onFormSubmitted() {
       window.location.replace("success.aspx");
  }
 
