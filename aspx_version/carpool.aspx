@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <form class="ui form" onsubmit="submitForm(&quot;CarPool&quot;)">
+  <form class="ui form">
   <div class="field">
     <label>First Name</label>
     <input type="text" name="name" id="gwgz" placeholder="First Name">
@@ -121,7 +121,7 @@
       </div>
     </div>
 
-    <button class="ui button" type="submit">Submit</button>
+    <button class="ui button" type="submit" id="submit-carpool">Submit</button>
 </form>
 
 <script src="semanticCalls.js"></script>

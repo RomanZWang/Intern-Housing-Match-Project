@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <form class="ui form" onsubmit="submitForm(&quot;Housing&quot;)">
+  <form class="ui form">
 
   <div class="field">
     <label>First Name</label>
@@ -141,10 +141,9 @@
     </div>
   </div>
 
-  <button class="ui button" type="submit">Submit</button>
+  <button class="ui button" id="submit-tenant" type="submit">Submit</button>
 </form>
 
 <script src="semanticCalls.js"></script>
-
 </body>
 </html>

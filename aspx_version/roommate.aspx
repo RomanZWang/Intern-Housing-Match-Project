@@ -16,7 +16,7 @@
 </head>
 <body>
 
-  <form class="ui form" onsubmit="submitForm(&quot;RoomMates&quot;)">
+  <form class="ui form">
   <div class="field">
     <label>First Name</label>
     <input type="text" name="name" id="c4um" placeholder="First Name">
@@ -175,7 +175,7 @@
     </div>
   </div>
 
-  <button class="ui button" type="submit">Submit</button>
+  <button class="ui button" id="submit-roommate" type="submit">Submit</button>
 </form>
 
 
