@@ -38,7 +38,7 @@
 </head>
 
 <body>
-  <div class="ui vertical right visible sidebar menu">
+  <div class="ui vertical right visible sidebar menu" id="results">
     <a class="item">
       <i class="home icon"></i>
       Home
@@ -60,7 +60,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.9/gmaps.min.js"></script>
 <script>
 
-JSONdata = getListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9","CarPool",carPoolKeys).then(function(e){return e;}).catch(function(e){console.log("Resolve error for Ajax getListItem"); console.log(e)});
+//JSONdata = getListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9","CarPool",carPoolKeys).then(function(e){return e;}).catch(function(e){console.log("Resolve error for Ajax getListItem"); console.log(e)});
 
 var map;
 
@@ -82,7 +82,10 @@ function loadResults (data) {
           icon : {
             size : new google.maps.Size(32, 32),
             url : icon
-          }
+          },
+          infoWindow: {
+         content: '<font color="red">'+item.name+'</font>'
+        }
         });
       }
     }
@@ -111,6 +114,8 @@ $(document).on('click', '.pan-to-marker', function(e) {
   map.setCenter(lat, lng);
 });
 
+infoWindow = new google.maps.InfoWindow({});
+
 $(document).ready(function(){
   PR.prettyPrint();
   map = new GMaps({
@@ -121,8 +126,7 @@ $(document).ready(function(){
 
   map.on('marker_added', function (marker) {
     var index = map.markers.indexOf(marker);
-    $('#results').append('<li><a href="#" class="pan-to-marker" data-marker-index="' + index + '">' + marker.title + '</a></li>');
-
+    $('#results').append('<a href="#" class="item pan-to-marker" data-marker-index="' + index + '"><i class="block layout icon"></i>'+ marker.title + '</a>');
     if (index == map.markers.length - 1) {
       map.fitZoom();
     }

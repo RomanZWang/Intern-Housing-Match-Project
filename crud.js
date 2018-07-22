@@ -86,10 +86,10 @@
                         "Accept": "application/json;odata=verbose"
                   },
                   success: function (data) {
-                        success(data.d);
+                        return (data.d);
                   },
                   error: function (data) {
-                        success(data);
+                        console.log(data);
                   }
             })
 	}
