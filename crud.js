@@ -27,7 +27,7 @@
 
 
       //Creates new list
-      function createListItem(siteUrl,listName, itemProperties, success = function(e){console.log(e), failure = function(e){console.log(e)) {
+      function createListItem(siteUrl,listName, itemProperties, success = function(e){console.log(e)}, failure = function(e){console.log(e)}) {
         var _digest = getFormDigest();
         console.log("Added List item called with digest value -- " + _digest);
         var itemType = getItemTypeForListName(listName);
@@ -52,6 +52,7 @@
             "X-RequestDigest": _digest,
             "content-Type": "application/json;odata=verbose"
           },
+          async: false,
           success: function (data) {
             success(data.d);
           },
@@ -85,6 +86,7 @@
                   headers: {
                         "Accept": "application/json;odata=verbose"
                   },
+                  async: false,
                   success: function (data) {
                         return (data.d);
                   },

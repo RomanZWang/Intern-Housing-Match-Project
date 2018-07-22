@@ -65,26 +65,51 @@
 var map;
 
 function loadResults (data) {
-  var items, markers_data = [];
-  if (data.venues.length > 0) {
-    items = data.venues;
+  // var items, markers_data = [];
+  var houses, markers_data = [];
 
-    for (var i = 0; i < items.length; i++) {
-      var item = items[i];
+  //instead of data.venues
+  if (data.results.length > 0) {
+    // items = data.venues;
+    houses = data.results;
 
-      if (item.location.lat != undefined && item.location.lng != undefined) {
+    //instead of items.length
+    for (var i = 0; i < houses.length; i++) {
+      // var item = items[i];
+      var house = houses[i];
+
+      // if (item.location.lat != undefined && item.location.lng != undefined) {
+      //   var icon = 'https://foursquare.com/img/categories/food/default.png';
+      //
+      //   markers_data.push({
+      //     lat : item.location.lat,
+      //     lng : item.location.lng,
+      //     title : item.name,
+      //     icon : {
+      //       size : new google.maps.Size(32, 32),
+      //       url : icon
+      //     },
+      //     infoWindow: {
+      //    content: '<font color="red">'+item.name+'</font>'
+      //   }
+      //   });
+      // }
+
+      //gxla longitude
+      //t75w latitude
+      if (house.gxla != undefined && house.t75w != undefined) {
         var icon = 'https://foursquare.com/img/categories/food/default.png';
 
         markers_data.push({
-          lat : item.location.lat,
-          lng : item.location.lng,
-          title : item.name,
+          lat : house.gxla,
+          lng : house.t75w,
+          title : house.x7yh,
           icon : {
             size : new google.maps.Size(32, 32),
             url : icon
           },
           infoWindow: {
-         content: '<font color="red">'+item.name+'</font>'
+         content: '<font>' + item.x7yh+ '<br />rent:' + house.meae + '<br />contact:' + house.meae +'</font>'
         }
         });
       }
@@ -132,7 +157,8 @@ $(document).ready(function(){
     }
   });
 
-  var xhr = $.getJSON('https://coffeemaker.herokuapp.com/foursquare.json?q[near]=Lima,%20PE&q[query]=Ceviche');
+  // var xhr = $.getJSON('https://coffeemaker.herokuapp.com/foursquare.json?q[near]=Lima,%20PE&q[query]=Ceviche');
+  var xhr = getListItem('https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9', 'Housing', housingKeys);
 
   xhr.done(printResults);
   xhr.done(loadResults);
