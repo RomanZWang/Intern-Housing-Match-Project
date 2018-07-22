@@ -64,7 +64,7 @@
 
       function arrayToQueryString(array){
         var queryString = "";
-        if(array.lenth>0){
+        if(array.length>0){
           for(var i = 0; i< array.length; i++){
             if(i==0){
               queryString = queryString.concat(array[i]);

@@ -11,9 +11,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
-      <script src="crud.js"></script>
-      <script src="submit.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+    <script src="crud.js"></script>
+    <script src="submit.js"></script>
     <style>
     html,
     body {
@@ -58,6 +58,9 @@
 
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.9/gmaps.min.js"></script>
+<script src="crud.js"></script>
+<script src="submit.js"></script>
+
 <script>
 
 //JSONdata = getListItem("https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9","CarPool",carPoolKeys).then(function(e){return e;}).catch(function(e){console.log("Resolve error for Ajax getListItem"); console.log(e)});
