@@ -39,14 +39,7 @@
 
 <body>
   <div class="ui vertical right visible sidebar menu" id="results">
-    <a class="item">
-      <i class="home icon"></i>
-      Home
-    </a>
-    <a class="item">
-      <i class="block layout icon"></i>
-      Topics
-    </a>
+    <!--append list items here-->
   </div>
     <div id="map" class="column twelve wide">Map</div>
 
@@ -112,7 +105,7 @@ function loadResults (data) {
             url : icon
           },
           infoWindow: {
-         content: '<font>' + item.x7yh+ '<br />rent:' + house.meae + '<br />contact:' + house.meae +'</font>'
+         content: '<font>' + house.x7yh+ '<br />Rent: $' + house.meae + '<br />Name: $' + house.c4um + '<br />Contact E-mail: ' + house.E_x002d_Mail + house.E_x002d_MailDomain +'</font>'
         }
         });
       }
@@ -146,8 +139,8 @@ $(document).ready(function(){
   PR.prettyPrint();
   map = new GMaps({
     div: '#map',
-    lat: -12.043333,
-    lng: -77.028333
+    lat: 33.3,
+    lng: -111.8
   });
 
   map.on('marker_added', function (marker) {
