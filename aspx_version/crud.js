@@ -80,6 +80,7 @@
       function getListItem(siteUrl, listName, queryArray = [], success = function(e){console.log(e)}, failure = function(e){console.log(e)}) {
             var itemType = getItemTypeForListName(listName);
             var queryString = arrayToQueryString(queryArray);
+            var requestJSON;
             $.ajax({
                   url: siteUrl + "/_api/Web/Lists/GetByTitle('" + listName + "')/items?$select=" + queryString,
                   method: "GET",
@@ -88,12 +89,15 @@
                   },
                   async: false,
                   success: function (data) {
-                        return (data.d);
+                    requestJSON = data["d"];
+                    console.log(requestJSON);
+                    console.log("Get List Item request done");
                   },
                   error: function (data) {
                         console.log(data);
                   }
             })
+            return requestJSON;
 	}
 
     // //specify item properties

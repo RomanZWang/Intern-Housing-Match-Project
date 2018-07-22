@@ -36,6 +36,17 @@
     <label>E-mail address</label>
     <input type="email" name="email" id="OData__x0061_o65" placeholder="E-mail address">
   </div>
+  <div class="field">
+    <label>E-mail domain</label>
+    <select name="dropdown" id="E_x002d_MailDomain">
+      <option value="@gmail.com">@gmail.com</option>
+      <option value="@hotmail.com">@hotmail.com</option>
+      <option value="@yahoo.com">@yahoo.com</option>
+      <option value="@mail.com">@mail.com</option>
+      <option value="@outlook.com">@outlook.com</option>
+      <option value="@ngc.com">@ngc.com</option>
+    </select>
+  </div>
 
   <div class="field">
     <label>Housing post headline</label>

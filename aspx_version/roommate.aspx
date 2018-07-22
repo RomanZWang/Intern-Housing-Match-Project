@@ -170,6 +170,18 @@
   </div>
 
   <div class="field">
+    <label>E-mail domain</label>
+    <select name="dropdown" id="E_x002d_MailDomain">
+      <option value="@gmail.com">@gmail.com</option>
+      <option value="@hotmail.com">@hotmail.com</option>
+      <option value="@yahoo.com">@yahoo.com</option>
+      <option value="@mail.com">@mail.com</option>
+      <option value="@outlook.com">@outlook.com</option>
+      <option value="@ngc.com">@ngc.com</option>
+    </select>
+  </div>
+
+  <div class="field">
       <label>Bio and additional info</label>
       <textarea rows="10" id="Additional" name="text"></textarea>
   </div>

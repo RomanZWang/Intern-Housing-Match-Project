@@ -142,8 +142,6 @@ $(document).on('click', '.pan-to-marker', function(e) {
   map.setCenter(lat, lng);
 });
 
-infoWindow = new google.maps.InfoWindow({});
-
 $(document).ready(function(){
   PR.prettyPrint();
   map = new GMaps({
@@ -167,16 +165,6 @@ $(document).ready(function(){
   xhr.done(loadResults);
 });
 
-
-
-GMaps.geocode({
-  address: 'Germany',
-  callback: function(results, status){
-    var firstResult = results[0];
-    map.setCenter(firstResult.geometry.location.lat(), firstResult.geometry.location.lng());
-    map.setZoom(7);
-  }
-});
 </script>
 
 
