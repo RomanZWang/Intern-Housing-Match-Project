@@ -1,0 +1,179 @@
+
+
+{
+  "results": [
+    {
+      "__metadata": {
+        "id": "Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)",
+        "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)",
+        "etag": "\"1\"",
+        "type": "SP.Data.HousingListItem"
+      },
+      "FirstUniqueAncestorSecurableObject": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/FirstUniqueAncestorSecurableObject"
+        }
+      },
+      "RoleAssignments": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/RoleAssignments"
+        }
+      },
+      "AttachmentFiles": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/AttachmentFiles"
+        }
+      },
+      "ContentType": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/ContentType"
+        }
+      },
+      "FieldValuesAsHtml": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/FieldValuesAsHtml"
+        }
+      },
+      "FieldValuesAsText": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/FieldValuesAsText"
+        }
+      },
+      "FieldValuesForEdit": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/FieldValuesForEdit"
+        }
+      },
+      "File": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/File"
+        }
+      },
+      "Folder": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/Folder"
+        }
+      },
+      "ParentList": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(1)\/ParentList"
+        }
+      },
+      "FileSystemObjectType": 0,
+      "Id": 1,
+      "ContentTypeId": "0x010074E6C8C36ABB034E97DFBADE8B0785D1",
+      "Title": "Title",
+      "x7yh": "Headline",
+      "gxla": 12.2,
+      "t75w": 21.2,
+      "meae": 990,
+      "OData__x0077_qh3": "2018-07-03T04:00:00Z",
+      "OData__x0076_ro3": "2018-08-03T04:05:00Z",
+      "Smoker": true,
+      "Pets": false,
+      "Parking": true,
+      "GenderPreference": "Binary",
+      "HousingType": "Previous Housing",
+      "Description": "Lorem Ipsum",
+      "OData__x0061_o65": "roman.wang@ngc.com",
+      "OData__x0070_ja0": "Roman",
+      "hiyi": "Wang",
+      "E_x002d_MailDomain": null,
+      "ID": 1,
+      "Modified": "2018-07-19T13:43:30Z",
+      "Created": "2018-07-19T13:43:30Z",
+      "AuthorId": 9255,
+      "EditorId": 9255,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "9c87dc53-c6a2-4a57-b6d6-d7fb8ac04fcf"
+    },
+    {
+      "__metadata": {
+        "id": "Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)",
+        "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)",
+        "etag": "\"1\"",
+        "type": "SP.Data.HousingListItem"
+      },
+      "FirstUniqueAncestorSecurableObject": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/FirstUniqueAncestorSecurableObject"
+        }
+      },
+      "RoleAssignments": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/RoleAssignments"
+        }
+      },
+      "AttachmentFiles": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/AttachmentFiles"
+        }
+      },
+      "ContentType": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/ContentType"
+        }
+      },
+      "FieldValuesAsHtml": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/FieldValuesAsHtml"
+        }
+      },
+      "FieldValuesAsText": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/FieldValuesAsText"
+        }
+      },
+      "FieldValuesForEdit": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/FieldValuesForEdit"
+        }
+      },
+      "File": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/File"
+        }
+      },
+      "Folder": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/Folder"
+        }
+      },
+      "ParentList": {
+        "__deferred": {
+          "uri": "https:\/\/oursites.myngc.com\/ENT\/InternCoP\/NGTS\/InternChallange\/Team9\/_api\/Web\/Lists(guid'625cefe3-bd92-40d3-aa6d-b18bdf94cd89')\/Items(2)\/ParentList"
+        }
+      },
+      "FileSystemObjectType": 0,
+      "Id": 2,
+      "ContentTypeId": "0x010074E6C8C36ABB034E97DFBADE8B0785D1",
+      "Title": null,
+      "x7yh": "Hey now",
+      "gxla": 38,
+      "t75w": 77,
+      "meae": 123,
+      "OData__x0077_qh3": "2018-07-04T00:00:00Z",
+      "OData__x0076_ro3": "2018-07-10T00:00:00Z",
+      "Smoker": true,
+      "Pets": true,
+      "Parking": true,
+      "GenderPreference": "Male",
+      "HousingType": "Previous housing",
+      "Description": "123",
+      "OData__x0061_o65": "thugger@atl.com",
+      "OData__x0070_ja0": "Yung",
+      "hiyi": "Thug",
+      "E_x002d_MailDomain": null,
+      "ID": 2,
+      "Modified": "2018-07-20T01:13:32Z",
+      "Created": "2018-07-20T01:13:32Z",
+      "AuthorId": 9255,
+      "EditorId": 9255,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "791465ac-663e-4673-850b-9471b97b561d"
+    }
+  ]
+}
+
