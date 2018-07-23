@@ -5,8 +5,10 @@ var carPoolKeys = ["Location", "v42w", "E_x002d_Mail", "gwgz", "wg0m", "Addition
 
 var calendarKeys = ["wvxs", "OData__x0066_o03", "OData__x0077_qh3", "OData__x0076_ro3"]
 var numericKeys = ["tpqq","gxla","t75w","meae","v42w","d6ny","espt","p5l8","nulw"];
+var locationKeys = [];
 var boolKeys = ["Smoker", "Pets", "Parking"];
 var multiSelectKeys = ["Days"];
+
 
 var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carPoolKeys};
 
@@ -23,6 +25,10 @@ var SPLists = {"RoomMates":roommateKeys , "Housing":housingKeys, "CarPool": carP
     }
     if(numericKeys.includes(fieldID)){
       return parseFloat(fieldValue);
+    }
+    if(locationKeys.includes(fieldID)){
+      //add randomness to protect anonymity
+      return parseFloat(fieldValue)+Math.random()/5;
     }
     if(multiSelectKeys.includes(fieldID)){
       return ({

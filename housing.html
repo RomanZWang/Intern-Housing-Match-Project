@@ -101,11 +101,11 @@ function loadResults (data) {
           lng : house.t75w,
           title : house.x7yh,
           icon : {
-            size : new google.maps.Size(32, 32),
+            size : new google.maps.Size(50, 50),
             url : icon
           },
           infoWindow: {
-         content: '<font>' + house.x7yh+ '<br />Rent: $' + house.meae + '<br />Name: $' + house.c4um + '<br />Contact E-mail: ' + house.E_x002d_Mail + house.E_x002d_MailDomain +'</font>'
+         content: '<font>' + house.x7yh+ '<br />Rent: $' + house.meae + '<br />Name: $' + house.oData__x0070_ja0 + '<br />Contact E-mail: ' + house.oData__x0061_065 + house.E_x002d_MailDomain +'</font>'
         }
         });
       }
@@ -115,10 +115,10 @@ function loadResults (data) {
   map.addMarkers(markers_data);
 }
 
-function printResults(data) {
-  $('#foursquare-results').text(JSON.stringify(data));
-    PR.prettyPrint();
-}
+// function printResults(data) {
+//   $('#foursquare-results').text(JSON.stringify(data));
+//     PR.prettyPrint();
+// }
 
 $(document).on('click', '.pan-to-marker', function(e) {
   e.preventDefault();
@@ -154,8 +154,8 @@ $(document).ready(function(){
   // var xhr = $.getJSON('https://coffeemaker.herokuapp.com/foursquare.json?q[near]=Lima,%20PE&q[query]=Ceviche');
   var xhr = getListItem('https://oursites.myngc.com/ENT/InternCoP/NGTS/InternChallange/Team9', 'Housing', housingKeys);
 
-  xhr.done(printResults);
-  xhr.done(loadResults);
+  // printResults(xhr);
+  loadResults(xhr);
 });
 
 </script>
