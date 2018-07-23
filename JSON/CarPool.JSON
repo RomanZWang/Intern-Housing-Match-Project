@@ -1,0 +1,1104 @@
+[
+  {
+    "_id": "5b5583a5bdfa07862c6607cb",
+    "index": 0,
+    "guid": "c60447ed-5874-4c4f-bce4-f1bdfd3228b8",
+    "DTW": 7,
+    "DH": 23,
+    "Location": "Mesa",
+    "Seats": 7,
+    "Additional": "Deserunt ullamco in laborum consequat elit aute. Cillum mollit laborum eu eiusmod labore ullamco quis. Esse ad consectetur ullamco et dolore nulla amet proident amet cupidatat ullamco non culpa dolore. Anim nisi aliquip culpa ad et irure laborum. Id amet consequat ipsum exercitation et dolore dolor irure dolore mollit tempor non commodo. Nisi ipsum consequat Lorem ad enim ex laboris dolore sint non ad consectetur duis culpa.",
+    "name": {
+      "first": "Guzman",
+      "last": "Valdez"
+    },
+    "company": "KROG",
+    "email": "guzman.valdez@krog.name",
+    "latitude": "-111.887544",
+    "longitude": "33.19292",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": false,
+        "Wed": true,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5214dc591f4e716f4",
+    "index": 1,
+    "guid": "890fa365-4041-40b4-b545-a05e331d0942",
+    "DTW": 20,
+    "DH": 13,
+    "Location": "Douglass",
+    "Seats": 4,
+    "Additional": "Laborum anim tempor occaecat fugiat. Aliquip ullamco aute enim qui pariatur nisi amet irure. Sint enim esse incididunt ad enim proident ea reprehenderit nostrud.",
+    "name": {
+      "first": "Shelly",
+      "last": "Rice"
+    },
+    "company": "COMSTRUCT",
+    "email": "shelly.rice@comstruct.me",
+    "latitude": "-112.133633",
+    "longitude": "32.61652",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a56a4298982d601d96",
+    "index": 2,
+    "guid": "4628ccb8-4aa9-4e3e-ad39-b407f80cebaf",
+    "DTW": 16,
+    "DH": 24,
+    "Location": "Chandler",
+    "Seats": 5,
+    "Additional": "Ad ex cupidatat proident do ad quis officia. Sint proident in duis nisi amet tempor occaecat in sunt. Ipsum aliqua laborum proident occaecat sunt duis sit adipisicing adipisicing consectetur elit. Velit sit qui laborum officia qui. Eiusmod labore aliqua culpa occaecat culpa sunt amet in mollit tempor amet pariatur velit. Ut tempor excepteur est tempor fugiat eiusmod dolor.",
+    "name": {
+      "first": "Chasity",
+      "last": "Sharp"
+    },
+    "company": "ECRATIC",
+    "email": "chasity.sharp@ecratic.org",
+    "latitude": "-110.032893",
+    "longitude": "31.58145",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5ac9690064235d539",
+    "index": 3,
+    "guid": "c8a2f558-02c3-4e7a-af69-22809c387655",
+    "DTW": 17,
+    "DH": 16,
+    "Location": "Tuscon",
+    "Seats": 5,
+    "Additional": "Magna occaecat nisi aute non in aute cillum esse id pariatur dolore laboris voluptate. Ex occaecat proident exercitation incididunt deserunt proident qui cupidatat. Sit quis reprehenderit incididunt fugiat anim reprehenderit aliquip exercitation non est in id mollit reprehenderit. Sint fugiat occaecat magna non incididunt esse aute anim exercitation quis eu cupidatat magna cillum. Id sit laboris sit commodo deserunt anim commodo occaecat. Fugiat nulla velit ipsum non mollit dolore quis laborum esse id proident. Exercitation deserunt cillum nulla dolore mollit dolore dolor incididunt labore adipisicing qui Lorem.",
+    "name": {
+      "first": "Benson",
+      "last": "Montgomery"
+    },
+    "company": "IZZBY",
+    "email": "benson.montgomery@izzby.co.uk",
+    "latitude": "-112.901264",
+    "longitude": "33.2019",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": true,
+        "Wed": true,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a52c7797cf7ca48010",
+    "index": 4,
+    "guid": "880341d4-fa78-42c1-8dfb-3e5330a2c3a2",
+    "DTW": 1,
+    "DH": 18,
+    "Location": "Sierra Vista",
+    "Seats": 1,
+    "Additional": "Deserunt ipsum velit aliquip ex irure sunt in pariatur cupidatat esse. Eu velit quis enim occaecat nostrud duis. Cupidatat occaecat incididunt aliqua labore ut Lorem aliqua deserunt ut eiusmod pariatur ad.",
+    "name": {
+      "first": "Adkins",
+      "last": "Love"
+    },
+    "company": "MEDALERT",
+    "email": "adkins.love@medalert.biz",
+    "latitude": "-110.367957",
+    "longitude": "34.26753",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": true,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a59ef5f536434255e4",
+    "index": 5,
+    "guid": "7c01713e-5847-4a70-9d8f-44f32c136d6e",
+    "DTW": 10,
+    "DH": 14,
+    "Location": "Mesa",
+    "Seats": 4,
+    "Additional": "Quis laborum excepteur duis ad esse commodo enim exercitation magna voluptate ad proident pariatur. Eu eu dolore et ad adipisicing nulla dolor exercitation ad proident veniam non excepteur. Qui reprehenderit adipisicing nisi enim pariatur consectetur in deserunt labore. Veniam culpa minim sit dolor fugiat veniam pariatur consequat mollit aliquip dolore velit sit duis. Tempor ut exercitation eiusmod ut sunt.",
+    "name": {
+      "first": "Jana",
+      "last": "Barnes"
+    },
+    "company": "ENERVATE",
+    "email": "jana.barnes@enervate.biz",
+    "latitude": "-112.103015",
+    "longitude": "32.25015",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": true,
+        "Thu": true,
+        "Fri": false,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a54cbc6bcad07c2434",
+    "index": 6,
+    "guid": "28d35ecd-b27c-4c1e-8d52-24edd40e7243",
+    "DTW": 9,
+    "DH": 2,
+    "Location": "Chandler",
+    "Seats": 7,
+    "Additional": "Anim irure magna voluptate elit deserunt esse ullamco id proident aliquip. Occaecat officia mollit cupidatat aute amet culpa pariatur proident excepteur aliquip consequat laboris. Et amet enim reprehenderit enim id sit amet sunt ex anim aute. Tempor aliqua cillum culpa Lorem ipsum.",
+    "name": {
+      "first": "Margaret",
+      "last": "Wright"
+    },
+    "company": "VERAQ",
+    "email": "margaret.wright@veraq.us",
+    "latitude": "-109.58883",
+    "longitude": "31.55319",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": true,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5cdc0fed5a5eb74ed",
+    "index": 7,
+    "guid": "bb1f2d17-8aa4-4440-829b-3df1f6e1a9fe",
+    "DTW": 8,
+    "DH": 23,
+    "Location": "Chandler",
+    "Seats": 8,
+    "Additional": "Non dolor officia mollit Lorem deserunt sit qui commodo fugiat pariatur Lorem cupidatat. Amet proident do officia ullamco adipisicing ea ut amet exercitation ad aliquip esse. Enim tempor aliquip ex fugiat occaecat sint ex duis dolore esse id ea fugiat.",
+    "name": {
+      "first": "Shepherd",
+      "last": "Moon"
+    },
+    "company": "OLUCORE",
+    "email": "shepherd.moon@olucore.com",
+    "latitude": "-109.314588",
+    "longitude": "34.96587",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5a6b2e08e2a46ae89",
+    "index": 8,
+    "guid": "7a03d106-b547-4a0e-8eb7-f3e52f9feb7b",
+    "DTW": 5,
+    "DH": 5,
+    "Location": "Chandler",
+    "Seats": 8,
+    "Additional": "Magna proident laborum in reprehenderit do ea irure. Pariatur sint nisi esse nostrud pariatur. Tempor adipisicing sit mollit aliqua aliquip deserunt ullamco ipsum consequat culpa labore quis. Sunt aute Lorem ut et laborum reprehenderit exercitation tempor consectetur amet ad ea culpa aliquip. Laboris sunt occaecat incididunt cillum minim.",
+    "name": {
+      "first": "Ford",
+      "last": "Briggs"
+    },
+    "company": "AQUACINE",
+    "email": "ford.briggs@aquacine.tv",
+    "latitude": "-110.004856",
+    "longitude": "33.78025",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a599b59b426d5e7e6e",
+    "index": 9,
+    "guid": "ddeb0a5b-007b-45fe-ae61-8dc631eeec85",
+    "DTW": 10,
+    "DH": 8,
+    "Location": "Douglass",
+    "Seats": 2,
+    "Additional": "Officia nulla ex veniam nostrud dolor culpa ex cillum sit anim pariatur. Cillum veniam culpa veniam culpa anim pariatur do aliquip dolore excepteur anim ullamco. Exercitation ad ut occaecat voluptate elit laboris dolor duis ipsum consectetur officia occaecat est nostrud.",
+    "name": {
+      "first": "Shields",
+      "last": "Harrell"
+    },
+    "company": "PLASMOS",
+    "email": "shields.harrell@plasmos.info",
+    "latitude": "-109.632083",
+    "longitude": "33.45074",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": true,
+        "Wed": true,
+        "Thu": false,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a509c8ee12ccbd1e03",
+    "index": 10,
+    "guid": "125b8e9f-4c7c-477d-9d49-a571656ace8d",
+    "DTW": 7,
+    "DH": 3,
+    "Location": "Sierra Vista",
+    "Seats": 2,
+    "Additional": "Proident ipsum est incididunt proident. Aliqua amet velit aliquip ex laborum sint commodo cupidatat ipsum et excepteur mollit est. Deserunt fugiat ad laboris sint commodo consectetur excepteur occaecat aliquip ea laboris id veniam. Nisi laborum deserunt cupidatat cillum occaecat ad excepteur amet ipsum duis. Non velit laboris exercitation ea tempor in ad dolor aliquip. Dolore sunt reprehenderit do elit cillum ex culpa nisi minim aliqua.",
+    "name": {
+      "first": "Ginger",
+      "last": "Collier"
+    },
+    "company": "TYPHONICA",
+    "email": "ginger.collier@typhonica.io",
+    "latitude": "-110.234918",
+    "longitude": "32.30475",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5e1366cbb9de02133",
+    "index": 11,
+    "guid": "a5d47051-a4e5-4ae2-9267-c6183be7d882",
+    "DTW": 11,
+    "DH": 19,
+    "Location": "Douglass",
+    "Seats": 0,
+    "Additional": "Exercitation nisi dolor ut ipsum ad commodo exercitation ex. Quis consequat voluptate do sunt proident laborum cupidatat pariatur dolore est voluptate. Enim tempor cupidatat commodo ad quis proident elit consequat culpa do reprehenderit esse.",
+    "name": {
+      "first": "Freda",
+      "last": "Mccarthy"
+    },
+    "company": "CYTREK",
+    "email": "freda.mccarthy@cytrek.ca",
+    "latitude": "-108.876121",
+    "longitude": "33.361",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a51bf4690c4556c5e1",
+    "index": 12,
+    "guid": "ef819549-aa69-479a-a3b7-6a2711934bb3",
+    "DTW": 3,
+    "DH": 16,
+    "Location": "Chandler",
+    "Seats": 0,
+    "Additional": "Culpa mollit cillum officia laboris ipsum consectetur id incididunt pariatur. Aliqua sunt occaecat proident esse commodo mollit enim nisi. Amet consequat esse tempor aliquip adipisicing esse minim enim.",
+    "name": {
+      "first": "Ingrid",
+      "last": "Sargent"
+    },
+    "company": "SKYBOLD",
+    "email": "ingrid.sargent@skybold.name",
+    "latitude": "-109.281366",
+    "longitude": "32.9899",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": true,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a59298b5b1647157b4",
+    "index": 13,
+    "guid": "4dc2d7da-78e9-46d8-9405-4fb7853423e3",
+    "DTW": 13,
+    "DH": 21,
+    "Location": "Douglass",
+    "Seats": 2,
+    "Additional": "Deserunt ut incididunt nostrud labore nulla nostrud ad consectetur do nostrud ullamco. Deserunt eiusmod in Lorem voluptate consectetur nisi culpa ea id sint aliqua pariatur eiusmod. Lorem velit duis et Lorem magna quis duis ut eu enim elit. Cupidatat sit quis voluptate laboris deserunt dolore pariatur adipisicing duis ad aute sint officia aliqua. Reprehenderit amet culpa pariatur anim.",
+    "name": {
+      "first": "Estelle",
+      "last": "Lindsey"
+    },
+    "company": "ORBIFLEX",
+    "email": "estelle.lindsey@orbiflex.me",
+    "latitude": "-111.706695",
+    "longitude": "33.64328",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a59182f7cfaa028448",
+    "index": 14,
+    "guid": "1086727c-6004-498d-920e-0655598ff031",
+    "DTW": 14,
+    "DH": 17,
+    "Location": "Tuscon",
+    "Seats": 5,
+    "Additional": "Quis aliqua sit sit sunt consequat Lorem enim. Magna occaecat irure ipsum id labore ipsum amet nostrud anim ut elit. Cillum mollit qui sint culpa consequat Lorem enim exercitation pariatur pariatur. Amet laboris ipsum eu ex ipsum. Do consequat ea consequat duis.",
+    "name": {
+      "first": "Teri",
+      "last": "White"
+    },
+    "company": "MEDMEX",
+    "email": "teri.white@medmex.org",
+    "latitude": "-111.416245",
+    "longitude": "33.06968",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5c5ab11e3015b29ff",
+    "index": 15,
+    "guid": "1a449f64-2a00-4ede-a021-a4017555b833",
+    "DTW": 19,
+    "DH": 6,
+    "Location": "Tuscon",
+    "Seats": 2,
+    "Additional": "Dolor eu laborum sit veniam tempor do irure. Lorem commodo ullamco sunt ullamco proident quis minim mollit labore enim magna. Ea do dolore sint dolore ea eu magna ea nisi. Pariatur id commodo quis Lorem excepteur reprehenderit consectetur consequat commodo in consectetur laborum. Cillum ad enim velit eu consequat ea. Nostrud ea tempor quis aliquip incididunt nisi duis enim esse ad amet aliquip fugiat non. Lorem non enim ipsum adipisicing in ea ipsum exercitation do consectetur sunt anim consectetur.",
+    "name": {
+      "first": "Stephens",
+      "last": "Solis"
+    },
+    "company": "EXOBLUE",
+    "email": "stephens.solis@exoblue.co.uk",
+    "latitude": "-110.635998",
+    "longitude": "34.57846",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a530564ec417bb2838",
+    "index": 16,
+    "guid": "66c60f72-f4e1-4178-ab25-0362c8338246",
+    "DTW": 5,
+    "DH": 9,
+    "Location": "Chandler",
+    "Seats": 5,
+    "Additional": "Voluptate duis dolore ullamco ipsum ullamco voluptate consequat ea cupidatat veniam aute proident officia. Non sit eiusmod esse officia officia tempor ut pariatur velit dolore proident. Tempor culpa reprehenderit velit nisi nostrud dolor quis magna non sint esse commodo sunt amet. Elit ex deserunt eiusmod ut laboris consectetur exercitation laborum. Incididunt incididunt ut cillum cupidatat consectetur officia sit.",
+    "name": {
+      "first": "Wilkinson",
+      "last": "Mckenzie"
+    },
+    "company": "ENOMEN",
+    "email": "wilkinson.mckenzie@enomen.biz",
+    "latitude": "-110.466863",
+    "longitude": "33.68808",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": false,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a54a88a67a960c431f",
+    "index": 17,
+    "guid": "44219a01-b769-452e-8e25-ef047239e6f8",
+    "DTW": 1,
+    "DH": 0,
+    "Location": "Douglass",
+    "Seats": 8,
+    "Additional": "Incididunt fugiat in laboris incididunt velit id ex sunt. Occaecat duis nulla proident ea Lorem Lorem voluptate ipsum. Tempor ad velit voluptate deserunt incididunt commodo sit ea voluptate labore cillum. Et irure sint nostrud culpa officia aute aliquip id laborum aliquip qui eu aliquip. Fugiat consequat Lorem nostrud dolor mollit ut adipisicing sit eiusmod do ut.",
+    "name": {
+      "first": "Janet",
+      "last": "Kirkland"
+    },
+    "company": "SULFAX",
+    "email": "janet.kirkland@sulfax.biz",
+    "latitude": "-110.541048",
+    "longitude": "32.94333",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5e521b2cc50f3b9b5",
+    "index": 18,
+    "guid": "0f339688-f988-4e52-9da1-51f870c807f5",
+    "DTW": 8,
+    "DH": 7,
+    "Location": "Mesa",
+    "Seats": 4,
+    "Additional": "Ullamco elit consequat proident aute. Deserunt dolor occaecat non amet veniam veniam ipsum enim consectetur cillum labore cupidatat ullamco amet. Cupidatat tempor ut in nostrud excepteur amet dolor laborum anim ex cillum sit. Nulla exercitation occaecat adipisicing eiusmod Lorem ex enim laborum minim excepteur labore deserunt mollit anim. Officia dolore veniam officia mollit enim laborum ullamco consequat sint magna tempor enim. Ullamco ea do magna ipsum cupidatat ullamco nulla nostrud laborum id non. Aliqua nisi sit non laborum sit laborum.",
+    "name": {
+      "first": "Camille",
+      "last": "Michael"
+    },
+    "company": "ZAGGLE",
+    "email": "camille.michael@zaggle.us",
+    "latitude": "-110.682408",
+    "longitude": "33.83224",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5318e14937378e042",
+    "index": 19,
+    "guid": "b69b7986-1c8d-46bf-8a2a-b85ef9ddbe5c",
+    "DTW": 24,
+    "DH": 15,
+    "Location": "Sierra Vista",
+    "Seats": 8,
+    "Additional": "Non Lorem aliqua eiusmod elit aute excepteur. Dolor et deserunt id proident amet. Eiusmod sint quis reprehenderit qui quis excepteur nulla duis sit laboris anim. Nisi irure id velit dolore proident aliquip commodo consectetur tempor.",
+    "name": {
+      "first": "Susan",
+      "last": "Williamson"
+    },
+    "company": "ISOTERNIA",
+    "email": "susan.williamson@isoternia.com",
+    "latitude": "-113.259334",
+    "longitude": "32.80264",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": false,
+        "Wed": true,
+        "Thu": false,
+        "Fri": false,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5893fc9336796acaf",
+    "index": 20,
+    "guid": "7e009d70-1d69-4ff4-9bb3-9ffc3575e0b1",
+    "DTW": 2,
+    "DH": 15,
+    "Location": "Douglass",
+    "Seats": 8,
+    "Additional": "Do labore velit et nisi eiusmod Lorem et id excepteur et do excepteur sit labore. Duis culpa aliquip veniam velit. Voluptate nisi nostrud sint duis aliquip exercitation non id nostrud irure dolore ut. Ullamco dolore veniam ullamco laboris officia. Ea cupidatat et sunt cupidatat eu eiusmod consequat officia id voluptate dolore minim.",
+    "name": {
+      "first": "Cassie",
+      "last": "Noble"
+    },
+    "company": "SATIANCE",
+    "email": "cassie.noble@satiance.tv",
+    "latitude": "-111.871977",
+    "longitude": "32.65999",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5c07b78aef1e0fecf",
+    "index": 21,
+    "guid": "d46df818-b7b8-4f1d-b4bd-5c8be2f45935",
+    "DTW": 20,
+    "DH": 3,
+    "Location": "Douglass",
+    "Seats": 8,
+    "Additional": "Officia qui ut esse proident adipisicing adipisicing incididunt amet voluptate. Fugiat ut fugiat cupidatat pariatur Lorem amet non voluptate ex nisi. Non et Lorem anim velit veniam excepteur anim reprehenderit deserunt mollit id consectetur proident. Magna aliquip cillum laboris aliqua labore adipisicing eiusmod nulla et adipisicing veniam. Et dolor veniam enim non adipisicing et commodo ad non. Eu cupidatat id consectetur mollit amet sunt dolore est fugiat.",
+    "name": {
+      "first": "Rachael",
+      "last": "Norman"
+    },
+    "company": "KONGLE",
+    "email": "rachael.norman@kongle.info",
+    "latitude": "-113.421474",
+    "longitude": "31.35197",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": true,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a598f9e2876c7f406a",
+    "index": 22,
+    "guid": "19b08b39-dcbe-46dd-a95b-d25bff465ad5",
+    "DTW": 10,
+    "DH": 16,
+    "Location": "Sierra Vista",
+    "Seats": 7,
+    "Additional": "Consequat cillum est ullamco sunt ipsum. Qui cillum in laboris sit dolore excepteur culpa elit aliqua ad Lorem quis sint aute. Irure tempor est labore culpa reprehenderit id aliqua reprehenderit aute ea.",
+    "name": {
+      "first": "Buchanan",
+      "last": "Levy"
+    },
+    "company": "KATAKANA",
+    "email": "buchanan.levy@katakana.io",
+    "latitude": "-109.879441",
+    "longitude": "32.82513",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a58278b2acd0947aec",
+    "index": 23,
+    "guid": "ee5adb06-7e82-4ed8-8d21-4499d18f631c",
+    "DTW": 24,
+    "DH": 5,
+    "Location": "Douglass",
+    "Seats": 5,
+    "Additional": "Magna voluptate nostrud excepteur tempor adipisicing duis irure. Ipsum fugiat incididunt exercitation enim ea ea. Cupidatat eu sint mollit anim aute incididunt anim.",
+    "name": {
+      "first": "Jordan",
+      "last": "Guzman"
+    },
+    "company": "TERRASYS",
+    "email": "jordan.guzman@terrasys.ca",
+    "latitude": "-113.059948",
+    "longitude": "31.55343",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": true,
+        "Thu": false,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5504b64641fd783bd",
+    "index": 24,
+    "guid": "6c53ef4c-ef4c-420d-8019-88d131eabab8",
+    "DTW": 15,
+    "DH": 10,
+    "Location": "Sierra Vista",
+    "Seats": 8,
+    "Additional": "Consectetur irure quis adipisicing elit in eiusmod. Tempor nisi mollit duis officia Lorem labore pariatur minim sunt Lorem fugiat. Ipsum in consectetur fugiat esse et et minim proident dolor id.",
+    "name": {
+      "first": "Casey",
+      "last": "Graves"
+    },
+    "company": "PLASMOX",
+    "email": "casey.graves@plasmox.name",
+    "latitude": "-112.210009",
+    "longitude": "35.18642",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5b162005e9f130ca9",
+    "index": 25,
+    "guid": "b788a1d6-e4c3-4191-8302-df96afced699",
+    "DTW": 12,
+    "DH": 24,
+    "Location": "Mesa",
+    "Seats": 1,
+    "Additional": "Enim sit occaecat exercitation voluptate excepteur eiusmod excepteur. Amet exercitation cupidatat commodo proident cillum consequat velit eiusmod non dolor. Enim aute anim dolore eiusmod occaecat. Exercitation dolor minim eu occaecat ullamco sunt labore irure esse eiusmod. Dolore reprehenderit esse voluptate dolor nostrud eiusmod elit elit.",
+    "name": {
+      "first": "Gibson",
+      "last": "Langley"
+    },
+    "company": "TINGLES",
+    "email": "gibson.langley@tingles.me",
+    "latitude": "-109.397573",
+    "longitude": "32.9963",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": true,
+        "Tue": false,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5bebdc0ac761500ee",
+    "index": 26,
+    "guid": "e412d09c-e5c7-4955-84bc-20aaedf6ad75",
+    "DTW": 2,
+    "DH": 5,
+    "Location": "Sierra Vista",
+    "Seats": 5,
+    "Additional": "Eiusmod dolor minim eiusmod sint esse ipsum irure. Velit id et ullamco est consequat nulla veniam. Dolor mollit non eu enim nostrud officia ipsum. Qui proident labore fugiat irure enim aute eu reprehenderit.",
+    "name": {
+      "first": "Esther",
+      "last": "Sanford"
+    },
+    "company": "ZILLA",
+    "email": "esther.sanford@zilla.org",
+    "latitude": "-110.420541",
+    "longitude": "32.63321",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": true,
+        "Tue": false,
+        "Wed": true,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a53f2a4cbb09473909",
+    "index": 27,
+    "guid": "5a1bfdee-0a30-47c2-a724-56511a5a8004",
+    "DTW": 17,
+    "DH": 6,
+    "Location": "Chandler",
+    "Seats": 0,
+    "Additional": "Nisi deserunt reprehenderit magna et officia. Minim voluptate magna enim cillum officia mollit ea anim sit aute non adipisicing Lorem. In ex non occaecat anim nulla aliqua non dolor in. Est ipsum veniam cupidatat dolor deserunt. Et ex incididunt exercitation dolore excepteur enim anim occaecat. Sit aliqua sit aute do et proident tempor duis labore dolor anim in ullamco ex.",
+    "name": {
+      "first": "Briana",
+      "last": "Greene"
+    },
+    "company": "NIPAZ",
+    "email": "briana.greene@nipaz.co.uk",
+    "latitude": "-110.871415",
+    "longitude": "33.55721",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": true,
+        "Wed": true,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5c700cfe0fed3ccf3",
+    "index": 28,
+    "guid": "f9b1acbc-bcb0-4e55-b346-83c55d674ba3",
+    "DTW": 15,
+    "DH": 8,
+    "Location": "Tuscon",
+    "Seats": 6,
+    "Additional": "Labore dolore nisi cupidatat culpa eu non adipisicing occaecat cupidatat sint in anim sunt cillum. Duis ullamco minim consectetur officia irure proident quis quis excepteur. Cupidatat ex tempor Lorem eiusmod nostrud eiusmod ad reprehenderit voluptate in eiusmod occaecat Lorem esse.",
+    "name": {
+      "first": "Finley",
+      "last": "Drake"
+    },
+    "company": "ANIMALIA",
+    "email": "finley.drake@animalia.biz",
+    "latitude": "-112.417496",
+    "longitude": "31.60733",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": true,
+        "Wed": true,
+        "Thu": false,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5c0a0700241740a29",
+    "index": 29,
+    "guid": "98a65a6e-e836-4054-9aa7-0451f57d91a1",
+    "DTW": 15,
+    "DH": 16,
+    "Location": "Sierra Vista",
+    "Seats": 7,
+    "Additional": "Non commodo in voluptate id do et deserunt cupidatat culpa id aliqua ullamco quis cillum. Sunt est pariatur aliqua eu esse reprehenderit nisi officia Lorem sit eiusmod non. Voluptate exercitation excepteur aliqua consequat consectetur quis adipisicing consectetur.",
+    "name": {
+      "first": "Dillon",
+      "last": "Livingston"
+    },
+    "company": "MAGNINA",
+    "email": "dillon.livingston@magnina.biz",
+    "latitude": "-109.966089",
+    "longitude": "34.14032",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5d7cc249d6221653d",
+    "index": 30,
+    "guid": "5fa1548f-72de-464e-9c3c-52f11ebaa4d8",
+    "DTW": 11,
+    "DH": 20,
+    "Location": "Sierra Vista",
+    "Seats": 6,
+    "Additional": "In ad magna velit duis mollit veniam fugiat. Cillum excepteur ea nostrud excepteur anim id magna labore nostrud ullamco pariatur irure amet ut. Est ullamco laboris occaecat labore magna tempor. Voluptate sit reprehenderit sint esse esse veniam do eu velit excepteur.",
+    "name": {
+      "first": "Whitfield",
+      "last": "Preston"
+    },
+    "company": "CUBICIDE",
+    "email": "whitfield.preston@cubicide.us",
+    "latitude": "-111.652204",
+    "longitude": "34.09525",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a55796dc6a0b19c250",
+    "index": 31,
+    "guid": "43dd764c-b851-4164-93f7-f5ab4804b4df",
+    "DTW": 3,
+    "DH": 15,
+    "Location": "Tuscon",
+    "Seats": 5,
+    "Additional": "Aliqua eiusmod exercitation laboris mollit esse veniam. In anim labore aliqua veniam sunt tempor eu amet officia sunt elit nulla aliquip pariatur. Cillum incididunt incididunt aute commodo sint elit officia ut eiusmod tempor.",
+    "name": {
+      "first": "Adeline",
+      "last": "Albert"
+    },
+    "company": "MAGNAFONE",
+    "email": "adeline.albert@magnafone.com",
+    "latitude": "-110.650275",
+    "longitude": "35.29782",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": true,
+        "Wed": true,
+        "Thu": true,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5d2e35a67e6a97816",
+    "index": 32,
+    "guid": "00e13148-efe8-4dd7-ac63-e51d62e444cf",
+    "DTW": 12,
+    "DH": 23,
+    "Location": "Chandler",
+    "Seats": 1,
+    "Additional": "Laborum exercitation consequat irure exercitation est amet laboris. Sint elit officia amet velit do aliquip quis. Sit enim nostrud id irure magna sint qui ea pariatur ipsum consectetur. Non duis officia sunt mollit ullamco aliqua anim esse. Velit dolor commodo incididunt laboris magna minim eiusmod magna id Lorem nisi. Magna magna ex veniam adipisicing amet proident proident voluptate pariatur. In veniam non do nisi duis magna mollit ipsum nostrud nulla consequat proident.",
+    "name": {
+      "first": "Yvette",
+      "last": "Acosta"
+    },
+    "company": "ZENTILITY",
+    "email": "yvette.acosta@zentility.tv",
+    "latitude": "-110.130845",
+    "longitude": "35.47049",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": true,
+        "Tue": false,
+        "Wed": true,
+        "Thu": true,
+        "Fri": false,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a58c545573422c26fc",
+    "index": 33,
+    "guid": "c66a992f-4a2f-4954-8b08-794fe0f36d42",
+    "DTW": 17,
+    "DH": 18,
+    "Location": "Mesa",
+    "Seats": 7,
+    "Additional": "Proident deserunt mollit nulla magna quis enim esse id incididunt dolor in deserunt magna. Excepteur commodo laborum quis nostrud cupidatat aliquip et incididunt cillum id ea aliqua adipisicing. Ad pariatur sint dolor consectetur aute velit sint esse dolor.",
+    "name": {
+      "first": "Letha",
+      "last": "Patterson"
+    },
+    "company": "EXOSPACE",
+    "email": "letha.patterson@exospace.info",
+    "latitude": "-113.054065",
+    "longitude": "32.83809",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": true,
+        "Thu": false,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5a9f65baac72e6cd2",
+    "index": 34,
+    "guid": "683022f7-9668-4a1c-8b54-a861bf52ae79",
+    "DTW": 12,
+    "DH": 0,
+    "Location": "Mesa",
+    "Seats": 7,
+    "Additional": "Et duis enim commodo nostrud velit est ullamco. Consequat incididunt do sint eiusmod magna veniam anim quis. Pariatur elit voluptate amet aliquip ut sint consequat. Aliqua reprehenderit tempor sunt ad nisi aliqua exercitation amet in quis cillum ut. Dolor sint amet et dolor elit. Aute exercitation ut adipisicing ea. Magna adipisicing dolor proident quis anim consequat aute nulla cupidatat duis tempor excepteur.",
+    "name": {
+      "first": "Reed",
+      "last": "Hill"
+    },
+    "company": "EZENT",
+    "email": "reed.hill@ezent.io",
+    "latitude": "-110.907124",
+    "longitude": "33.70707",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": true,
+        "Tue": false,
+        "Wed": true,
+        "Thu": true,
+        "Fri": false,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a53e82f49bd33a54bb",
+    "index": 35,
+    "guid": "ab1d84c6-d532-4a62-8e6b-b401d06c9913",
+    "DTW": 18,
+    "DH": 4,
+    "Location": "Mesa",
+    "Seats": 7,
+    "Additional": "Consequat laboris ad commodo elit ea ullamco Lorem dolore velit eu. Esse cillum sint duis commodo consequat aliqua. Labore consectetur eu consequat officia minim.",
+    "name": {
+      "first": "Willa",
+      "last": "Roth"
+    },
+    "company": "EDECINE",
+    "email": "willa.roth@edecine.ca",
+    "latitude": "-112.93627",
+    "longitude": "31.29122",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": true,
+        "Tue": false,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a5f955827e2b2c88a9",
+    "index": 36,
+    "guid": "9886c9dc-0558-48d4-92a7-7d86504505a5",
+    "DTW": 22,
+    "DH": 20,
+    "Location": "Tuscon",
+    "Seats": 4,
+    "Additional": "Ad commodo non excepteur magna irure in veniam non est. Laborum anim tempor fugiat velit reprehenderit ipsum minim amet deserunt. Non aliquip ad nulla adipisicing nostrud ut sit irure sit aliqua ad dolor. Labore magna reprehenderit deserunt occaecat culpa qui ea. Adipisicing id mollit amet consectetur amet magna deserunt ex eu exercitation sit cillum ut. Cupidatat laboris incididunt incididunt aliquip Lorem incididunt. Officia irure aliqua consequat deserunt reprehenderit adipisicing voluptate laborum adipisicing ipsum.",
+    "name": {
+      "first": "Kemp",
+      "last": "Osborne"
+    },
+    "company": "STELAECOR",
+    "email": "kemp.osborne@stelaecor.name",
+    "latitude": "-111.189256",
+    "longitude": "35.49888",
+    "Days": [
+      {
+        "Sun": true,
+        "Mon": false,
+        "Tue": true,
+        "Wed": true,
+        "Thu": true,
+        "Fri": true,
+        "Sat": true
+      }
+    ]
+  },
+  {
+    "_id": "5b5583a51e65d7d5b84906ac",
+    "index": 37,
+    "guid": "a1020f02-2eab-435b-b02a-014277a38619",
+    "DTW": 7,
+    "DH": 1,
+    "Location": "Sierra Vista",
+    "Seats": 6,
+    "Additional": "Sit eu laboris mollit minim exercitation ipsum tempor. Aliquip tempor qui veniam consectetur laborum ea minim tempor magna fugiat deserunt. Consectetur do veniam mollit fugiat in id do anim proident eiusmod do excepteur do ullamco. Ut eiusmod mollit nostrud quis tempor consectetur.",
+    "name": {
+      "first": "Howard",
+      "last": "Bartlett"
+    },
+    "company": "CIPROMOX",
+    "email": "howard.bartlett@cipromox.me",
+    "latitude": "-112.568786",
+    "longitude": "33.84591",
+    "Days": [
+      {
+        "Sun": false,
+        "Mon": false,
+        "Tue": true,
+        "Wed": false,
+        "Thu": false,
+        "Fri": true,
+        "Sat": false
+      }
+    ]
+  }
+]
