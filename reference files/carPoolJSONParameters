@@ -1,0 +1,37 @@
+[
+  {
+    'repeat(30, 50)': {
+      _id: '{{objectId()}}',
+      index: '{{index()}}',
+      guid: '{{guid()}}',
+      DTW: '{{integer(0, 24)}}',
+      DH: '{{integer(0, 24)}}',
+      Location	: '{{random("Douglass", "Sierra Vista", "Chandler", "Tuscon", "Mesa")}}',
+      Seats: '{{integer(0, 8)}}',
+      Additional: '{{lorem(1, "paragraphs")}}',
+      
+      name: {
+        first: '{{firstName()}}',
+        last: '{{surname()}}'
+      },
+      company: '{{company().toUpperCase()}}',
+      email(tags) {
+        return `${this.name.first}.${this.name.last}@${this.company}${tags.domainZone()}`.toLowerCase();
+      },
+      latitude: '{{floating(-108.826313, -113.44057)}}',
+      longitude: '{{floating(31.19046, 35.710442)}}',
+      Days: [
+        {
+           	Sun: '{{bool()}}',
+            Mon: '{{bool()}}',
+            Tue: '{{bool()}}',
+            Wed: '{{bool()}}',
+            Thu: '{{bool()}}',
+            Fri: '{{bool()}}',
+            Sat: '{{bool()}}'
+        }
+      ]
+
+    }
+  }
+]
